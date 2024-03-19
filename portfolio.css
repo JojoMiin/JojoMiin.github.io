@@ -410,6 +410,7 @@ s {
   border-radius: 0;
   margin-left: -1px;
   margin-bottom: -1px;
+  text-align: right;
 }
 
 .grid-item:hover {
@@ -422,13 +423,14 @@ s {
   text-align: left;
   opacity: 1;
   cursor: pointer;
+  width: 100%;
 }
 
 .grid-item .summary .title {
   font-family: 'Montserrat-SemiBold';
   font-weight: normal;
   font-style: normal;
-  font-size: 20px;
+  font-size: 30px;
   margin-bottom: 0.1em;
 }
 
@@ -3102,7 +3104,7 @@ s {
   }
 
   .grid-item .summary .title {
-    font-size: 16px;
+    font-size: 30px;
   }
 
   .header .name {
