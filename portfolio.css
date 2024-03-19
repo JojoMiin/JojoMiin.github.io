@@ -421,6 +421,7 @@ s {
   display: table;
   text-align: left;
   opacity: 1;
+  cursor: pointer;
 }
 
 .grid-item .summary .title {
