@@ -399,11 +399,12 @@ s {
   column-count: 2;
   column-gap: 0;
   padding: 0;
+  border: 5px solid pink;
 }
 
 .grid-item {
   position: relative;
-  border: 1px solid black;
+  border: 10px solid pink;
   padding: 15px;
   break-inside: avoid;
   background-color: white;
@@ -497,8 +498,8 @@ s {
   background-color: white;
   overflow-x: hidden;
   transition: 0.75s;
-  border-radius: 100vw;
-  border: 1px solid black;
+  border-radius: 10vw;
+  border: 10px solid pink;
   box-shadow: 0 0 5vh 5vh pink;
   margin: auto;
 }
@@ -584,8 +585,8 @@ s {
   background-color: white;
   overflow-x: hidden;
   transition: 0.75s;
-  border-radius: 100vw;
-  border: 1px solid black;
+  border-radius: 10vw;
+  border: 10px solid pink;
 
 
   box-shadow: 0 0 5vh 5vh pink;
@@ -674,8 +675,8 @@ s {
   background-color: white;
   overflow-x: hidden;
   transition: 0.75s;
-  border-radius: 100vw;
-  border: 1px solid black;
+  border-radius: 10vw;
+  border: 10px solid pink;
 
 
   box-shadow: 0 0 5vh 5vh pink;
