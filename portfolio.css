@@ -396,7 +396,7 @@ s {
   background-color: pink;
   height: auto;
   display: block;
-  column-count: 4;
+  column-count: 2;
   column-gap: 0;
   padding: 0;
 }
@@ -3071,7 +3071,7 @@ s {
 @media screen and (max-width: 800px) {
 
   .grid-container {
-    column-count: 2;
+    column-count: 1;
   }
 
   .menubar {
