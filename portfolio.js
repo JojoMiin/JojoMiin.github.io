@@ -1,8 +1,3 @@
-function myFunction() {
-  var popup = document.getElementById("myPopup");
-  popup.classList.toggle("show");
-}
-
 window.onload = function() {
   let categories = [];
 
@@ -96,4 +91,9 @@ window.onload = function() {
 
   let project_buttons = document.querySelectorAll('.grid-item > img, .grid-item > video');
 
+}
+
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
 }
