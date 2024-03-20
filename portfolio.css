@@ -431,7 +431,7 @@ s {
   font-family: 'Montserrat-SemiBold';
   font-weight: normal;
   font-style: normal;
-  font-size: 30px;
+  font-size: 3vw;
   margin-bottom: 0.1em;
 }
 
@@ -3105,7 +3105,7 @@ s {
   }
 
   .grid-item .summary .title {
-    font-size: 30px;
+    font-size: 8vw;
   }
 
   .header .name {
