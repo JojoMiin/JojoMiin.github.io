@@ -434,14 +434,16 @@ s {
   font-weight: normal;
   font-style: normal;
   font-size: 3vw;
-  margin-bottom: 0.1em;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+  line-height: 110%;
 }
 
 .grid-item .summary .info {
   font-family: 'Montserrat-LightItalic';
   font-weight: normal;
   font-size: 15px;
-  margin-bottom: 0.1em;
+  margin-bottom: 0.3em;
 }
 
 .grid-item .summary .colla {
