@@ -465,7 +465,7 @@ s {
 .grid-item img {
   width: 100%;
   height: auto;
-/*   border: 1px solid black; */
+  border-radius: 
 }
 
 .grid-item .description {
