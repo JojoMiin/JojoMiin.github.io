@@ -398,21 +398,18 @@ s {
   height: auto;
   display: block;
   column-count: 2;
-  column-gap: 0;
-  padding: 0;
-  border: 5px solid pink;
+  column-gap: 15px;
+  padding: 15px;
 }
 
 .grid-item {
   position: relative;
   transition: 1.2s;
-  border: 10px solid pink;
   padding: 15px;
   break-inside: avoid;
   background-color: white;
   border-radius: 2vh;
-  margin-left: -1px;
-  margin-bottom: -1px;
+  margin-bottom: 15px;
   text-align: right;
 }
 
