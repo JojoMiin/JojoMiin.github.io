@@ -9,6 +9,7 @@
 html, body {
   height: 100%;
   margin-right: .5vw;
+  background-color: whitesmoke;
 }
 
 /* width */
@@ -19,7 +20,7 @@ html, body {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: white;
+  background: whitesmoke;
   border: 1px solid black;
   border-radius: 10px;
   cursor: pointer;
@@ -345,11 +346,11 @@ s {
   font-family: 'Necto-Mono';
   font-weight: normal;
   font-size: 12px;
-  background: white;
+  background: whitesmoke;
 }
 
 .pill_menu:hover {
-  color: white;
+  color: whitesmoke;
   background: black;
   font-family: 'Necto-Mono';
   font-weight: normal;
@@ -357,7 +358,7 @@ s {
 }
 
 .pill_menu.selected {
-  color: white;
+  color: whitesmoke;
   background: black;
   font-family: 'Necto-Mono';
   font-weight: normal;
@@ -407,7 +408,7 @@ s {
   transition: 1.2s;
   padding: 15px;
   break-inside: avoid;
-  background-color: white;
+  background-color: whitesmoke;
   border-radius: 2vh;
   margin-bottom: 15px;
   text-align: right;
@@ -478,7 +479,7 @@ s {
   width: 120vh;
   height: 80vh;
   transform: translate(-50%, -50%);
-  background: white;
+  background: whitesmoke;
   display: none;
   z-index: +1;
 }
@@ -496,7 +497,7 @@ s {
   z-index: 1;
   right: 1%;
   bottom: -15vh;
-  background-color: white;
+  background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
   border-radius: 10vw;
@@ -583,7 +584,7 @@ s {
   z-index: 1;
   right: 1%;
   bottom: -15vh;
-  background-color: white;
+  background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
   border-radius: 10vw;
@@ -673,7 +674,7 @@ s {
   z-index: 1;
   right: 1%;
   bottom: -15vh;
-  background-color: white;
+  background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
   border-radius: 10vw;
@@ -763,7 +764,7 @@ s {
   z-index: 1;
   right: 1%;
   bottom: -15vh;
-  background-color: white;
+  background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
   border-radius: 100vw;
@@ -853,7 +854,7 @@ s {
   z-index: 1;
   right: 1%;
   bottom: -15vh;
-  background-color: white;
+  background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
   border-radius: 100vw;
@@ -943,7 +944,7 @@ s {
   z-index: 1;
   right: 1%;
   bottom: -15vh;
-  background-color: white;
+  background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
   border-radius: 100vw;
@@ -1033,7 +1034,7 @@ s {
   z-index: 1;
   right: 1%;
   bottom: -15vh;
-  background-color: white;
+  background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
   border-radius: 100vw;
@@ -1123,7 +1124,7 @@ s {
   z-index: 1;
   right: 1%;
   bottom: -15vh;
-  background-color: white;
+  background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
   border-radius: 100vw;
@@ -1213,7 +1214,7 @@ s {
   z-index: 1;
   right: 1%;
   bottom: -15vh;
-  background-color: white;
+  background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
   border-radius: 100vw;
@@ -1303,7 +1304,7 @@ s {
   z-index: 1;
   right: 1%;
   bottom: -15vh;
-  background-color: white;
+  background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
   border-radius: 100vw;
@@ -1393,7 +1394,7 @@ s {
   z-index: 1;
   right: 1%;
   bottom: -15vh;
-  background-color: white;
+  background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
   border-radius: 100vw;
@@ -1483,7 +1484,7 @@ s {
   z-index: 1;
   right: 1%;
   bottom: -15vh;
-  background-color: white;
+  background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
   border-radius: 100vw;
@@ -1573,7 +1574,7 @@ s {
   z-index: 1;
   right: 1%;
   bottom: -15vh;
-  background-color: white;
+  background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
   border-radius: 100vw;
@@ -1663,7 +1664,7 @@ s {
   z-index: 1;
   right: 1%;
   bottom: -15vh;
-  background-color: white;
+  background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
   border-radius: 100vw;
@@ -1753,7 +1754,7 @@ s {
   z-index: 1;
   right: 1%;
   bottom: -15vh;
-  background-color: white;
+  background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
   border-radius: 100vw;
@@ -1843,7 +1844,7 @@ s {
   z-index: 1;
   right: 1%;
   bottom: -15vh;
-  background-color: white;
+  background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
   border-radius: 100vw;
@@ -1933,7 +1934,7 @@ s {
   z-index: 1;
   right: 1%;
   bottom: -15vh;
-  background-color: white;
+  background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
   border-radius: 100vw;
@@ -2023,7 +2024,7 @@ s {
   z-index: 1;
   right: 1%;
   bottom: -15vh;
-  background-color: white;
+  background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
   border-radius: 100vw;
@@ -2113,7 +2114,7 @@ s {
   z-index: 1;
   right: 1%;
   bottom: -15vh;
-  background-color: white;
+  background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
   border-radius: 100vw;
@@ -2203,7 +2204,7 @@ s {
   z-index: 1;
   right: 1%;
   bottom: -15vh;
-  background-color: white;
+  background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
   border-radius: 100vw;
@@ -2293,7 +2294,7 @@ s {
   z-index: 1;
   right: 1%;
   bottom: -15vh;
-  background-color: white;
+  background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
   border-radius: 100vw;
@@ -2383,7 +2384,7 @@ s {
   z-index: 1;
   right: 1%;
   bottom: -15vh;
-  background-color: white;
+  background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
   border-radius: 100vw;
@@ -2473,7 +2474,7 @@ s {
   z-index: 1;
   right: 1%;
   bottom: -15vh;
-  background-color: white;
+  background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
   border-radius: 100vw;
@@ -2563,7 +2564,7 @@ s {
   z-index: 1;
   right: 1%;
   bottom: -15vh;
-  background-color: white;
+  background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
   border-radius: 100vw;
@@ -2653,7 +2654,7 @@ s {
   z-index: 1;
   right: 1%;
   bottom: -15vh;
-  background-color: white;
+  background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
   border-radius: 100vw;
@@ -2743,7 +2744,7 @@ s {
   z-index: 1;
   right: 1%;
   bottom: -15vh;
-  background-color: white;
+  background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
   border-radius: 100vw;
@@ -2833,7 +2834,7 @@ s {
   z-index: 1;
   right: 1%;
   bottom: -15vh;
-  background-color: white;
+  background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
   border-radius: 100vw;
@@ -2923,7 +2924,7 @@ s {
   z-index: 1;
   right: 1%;
   bottom: -15vh;
-  background-color: white;
+  background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
   border-radius: 100vw;
@@ -3027,7 +3028,7 @@ s {
 
 .pill {
   position: inherit;
-  color: white;
+  color: whitesmoke;
   padding: 2px 10px 5px 10px;
   transition: 0.3s;
   margin: 1px;
@@ -3044,7 +3045,7 @@ s {
 }
 
 .pill:hover {
-  background-color: white;
+  background-color: whitesmoke;
   color: black;
   font-family: 'Necto-Mono';
   font-weight: normal;
@@ -3070,7 +3071,7 @@ s {
   font-size: 30px;
   font-weight: bold;
   -webkit-text-stroke: 1px black;
-  -webkit-text-fill-color: white;
+  -webkit-text-fill-color: whitesmoke;
 }
 
 @media screen and (max-width: 800px) {
