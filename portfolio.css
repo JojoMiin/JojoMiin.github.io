@@ -408,14 +408,16 @@ s {
   transition: 1.2s;
   padding: 15px;
   break-inside: avoid;
-  background-color: whitesmoke;
+  background: linear-gradient(145deg, pink, #ffd8e1);
   border-radius: 2vh;
   margin-bottom: 15px;
   text-align: right;
+  box-shadow: inset 5px 5px 7px #7d4f56, inset -5px -5px 7px #ffcdd9;
 }
 
 .grid-item:hover {
   border-radius: 150vw;
+  background: whitesmoke;
 }
 
 .grid-item .summary {
