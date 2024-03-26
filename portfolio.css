@@ -580,12 +580,12 @@ s {
 }
 
 .sidenav2 {
-  width: 98%;
-  height: 0;
+  height: 98%;
+  width: 0;
   position: fixed;
   z-index: 1;
-  right: 1%;
-  bottom: -15vh;
+  top: 1%;
+  right: -15vh;
   background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
@@ -668,12 +668,12 @@ s {
 }
 
 .sidenav3 {
-  width: 98%;
-  height: 0;
+  height: 98%;
+  width: 0;
   position: fixed;
   z-index: 1;
-  right: 1%;
-  bottom: -15vh;
+  top: 1%;
+  right: -15vh;
   background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
@@ -756,12 +756,12 @@ s {
 }
 
 .sidenav4 {
-  width: 98%;
-  height: 0;
+  height: 98%;
+  width: 0;
   position: fixed;
   z-index: 1;
-  right: 1%;
-  bottom: -15vh;
+  top: 1%;
+  right: -15vh;
   background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
@@ -844,12 +844,12 @@ s {
 }
 
 .sidenav5 {
-  width: 98%;
-  height: 0;
+  height: 98%;
+  width: 0;
   position: fixed;
   z-index: 1;
-  right: 1%;
-  bottom: -15vh;
+  top: 1%;
+  right: -15vh;
   background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
@@ -932,12 +932,12 @@ s {
 }
 
 .sidenav6 {
-  width: 98%;
-  height: 0;
+  height: 98%;
+  width: 0;
   position: fixed;
   z-index: 1;
-  right: 1%;
-  bottom: -15vh;
+  top: 1%;
+  right: -15vh;
   background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
@@ -1020,12 +1020,12 @@ s {
 }
 
 .sidenav7 {
-  width: 98%;
-  height: 0;
+  height: 98%;
+  width: 0;
   position: fixed;
   z-index: 1;
-  right: 1%;
-  bottom: -15vh;
+  top: 1%;
+  right: -15vh;
   background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
@@ -1108,12 +1108,12 @@ s {
 }
 
 .sidenav8 {
-  width: 98%;
-  height: 0;
+  height: 98%;
+  width: 0;
   position: fixed;
   z-index: 1;
-  right: 1%;
-  bottom: -15vh;
+  top: 1%;
+  right: -15vh;
   background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
@@ -1196,12 +1196,12 @@ s {
 }
 
 .sidenav9 {
-  width: 98%;
-  height: 0;
+  height: 98%;
+  width: 0;
   position: fixed;
   z-index: 1;
-  right: 1%;
-  bottom: -15vh;
+  top: 1%;
+  right: -15vh;
   background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
@@ -1284,12 +1284,12 @@ s {
 }
 
 .sidenav10 {
-  width: 98%;
-  height: 0;
+  height: 98%;
+  width: 0;
   position: fixed;
   z-index: 1;
-  right: 1%;
-  bottom: -15vh;
+  top: 1%;
+  right: -15vh;
   background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
@@ -1372,12 +1372,12 @@ s {
 }
 
 .sidenav11 {
-  width: 98%;
-  height: 0;
+  height: 98%;
+  width: 0;
   position: fixed;
   z-index: 1;
-  right: 1%;
-  bottom: -15vh;
+  top: 1%;
+  right: -15vh;
   background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
@@ -1460,12 +1460,12 @@ s {
 }
 
 .sidenav12 {
-  width: 98%;
-  height: 0;
+  height: 98%;
+  width: 0;
   position: fixed;
   z-index: 1;
-  right: 1%;
-  bottom: -15vh;
+  top: 1%;
+  right: -15vh;
   background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
@@ -1548,12 +1548,12 @@ s {
 }
 
 .sidenav13 {
-  width: 98%;
-  height: 0;
+  height: 98%;
+  width: 0;
   position: fixed;
   z-index: 1;
-  right: 1%;
-  bottom: -15vh;
+  top: 1%;
+  right: -15vh;
   background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
@@ -1636,12 +1636,12 @@ s {
 }
 
 .sidenav14 {
-  width: 98%;
-  height: 0;
+  height: 98%;
+  width: 0;
   position: fixed;
   z-index: 1;
-  right: 1%;
-  bottom: -15vh;
+  top: 1%;
+  right: -15vh;
   background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
@@ -1724,12 +1724,12 @@ s {
 }
 
 .sidenav15 {
-  width: 98%;
-  height: 0;
+  height: 98%;
+  width: 0;
   position: fixed;
   z-index: 1;
-  right: 1%;
-  bottom: -15vh;
+  top: 1%;
+  right: -15vh;
   background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
@@ -1812,12 +1812,12 @@ s {
 }
 
 .sidenav16 {
-  width: 98%;
-  height: 0;
+  height: 98%;
+  width: 0;
   position: fixed;
   z-index: 1;
-  right: 1%;
-  bottom: -15vh;
+  top: 1%;
+  right: -15vh;
   background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
@@ -1900,12 +1900,12 @@ s {
 }
 
 .sidenav17 {
-  width: 98%;
-  height: 0;
+  height: 98%;
+  width: 0;
   position: fixed;
   z-index: 1;
-  right: 1%;
-  bottom: -15vh;
+  top: 1%;
+  right: -15vh;
   background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
@@ -1988,20 +1988,18 @@ s {
 }
 
 .sidenav18 {
-  width: 98%;
-  height: 0;
+  height: 98%;
+  width: 0;
   position: fixed;
   z-index: 1;
-  right: 1%;
-  bottom: -15vh;
+  top: 1%;
+  right: -15vh;
   background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
-  border-radius: 100vw;
-  border: 1px solid black;
-
-
-  box-shadow: 0 0 5vh 5vh pink;
+  border-radius: 10vw;
+  border: 5px solid pink;
+  box-shadow:inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw pink;
   margin: auto;
 }
 
@@ -2078,20 +2076,18 @@ s {
 }
 
 .sidenav19 {
-  width: 98%;
-  height: 0;
+  height: 98%;
+  width: 0;
   position: fixed;
   z-index: 1;
-  right: 1%;
-  bottom: -15vh;
+  top: 1%;
+  right: -15vh;
   background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
-  border-radius: 100vw;
-  border: 1px solid black;
-
-
-  box-shadow: 0 0 5vh 5vh pink;
+  border-radius: 10vw;
+  border: 5px solid pink;
+  box-shadow:inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw pink;
   margin: auto;
 }
 
@@ -2168,20 +2164,18 @@ s {
 }
 
 .sidenav20 {
-  width: 98%;
-  height: 0;
+  height: 98%;
+  width: 0;
   position: fixed;
   z-index: 1;
-  right: 1%;
-  bottom: -15vh;
+  top: 1%;
+  right: -15vh;
   background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
-  border-radius: 100vw;
-  border: 1px solid black;
-
-
-  box-shadow: 0 0 5vh 5vh pink;
+  border-radius: 10vw;
+  border: 5px solid pink;
+  box-shadow:inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw pink;
   margin: auto;
 }
 
@@ -2258,20 +2252,18 @@ s {
 }
 
 .sidenav21 {
-  width: 98%;
-  height: 0;
+  height: 98%;
+  width: 0;
   position: fixed;
   z-index: 1;
-  right: 1%;
-  bottom: -15vh;
+  top: 1%;
+  right: -15vh;
   background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
-  border-radius: 100vw;
-  border: 1px solid black;
-
-
-  box-shadow: 0 0 5vh 5vh pink;
+  border-radius: 10vw;
+  border: 5px solid pink;
+  box-shadow:inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw pink;
   margin: auto;
 }
 
@@ -2348,20 +2340,18 @@ s {
 }
 
 .sidenav22 {
-  width: 98%;
-  height: 0;
+  height: 98%;
+  width: 0;
   position: fixed;
   z-index: 1;
-  right: 1%;
-  bottom: -15vh;
+  top: 1%;
+  right: -15vh;
   background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
-  border-radius: 100vw;
-  border: 1px solid black;
-
-
-  box-shadow: 0 0 5vh 5vh pink;
+  border-radius: 10vw;
+  border: 5px solid pink;
+  box-shadow:inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw pink;
   margin: auto;
 }
 
@@ -2438,20 +2428,18 @@ s {
 }
 
 .sidenav23 {
-  width: 98%;
-  height: 0;
+  height: 98%;
+  width: 0;
   position: fixed;
   z-index: 1;
-  right: 1%;
-  bottom: -15vh;
+  top: 1%;
+  right: -15vh;
   background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
-  border-radius: 100vw;
-  border: 1px solid black;
-
-
-  box-shadow: 0 0 5vh 5vh pink;
+  border-radius: 10vw;
+  border: 5px solid pink;
+  box-shadow:inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw pink;
   margin: auto;
 }
 
@@ -2528,20 +2516,18 @@ s {
 }
 
 .sidenav24 {
-  width: 98%;
-  height: 0;
+  height: 98%;
+  width: 0;
   position: fixed;
   z-index: 1;
-  right: 1%;
-  bottom: -15vh;
+  top: 1%;
+  right: -15vh;
   background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
-  border-radius: 100vw;
-  border: 1px solid black;
-
-
-  box-shadow: 0 0 5vh 5vh pink;
+  border-radius: 10vw;
+  border: 5px solid pink;
+  box-shadow:inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw pink;
   margin: auto;
 }
 
@@ -2618,20 +2604,18 @@ s {
 }
 
 .sidenav25 {
-  width: 98%;
-  height: 0;
+  height: 98%;
+  width: 0;
   position: fixed;
   z-index: 1;
-  right: 1%;
-  bottom: -15vh;
+  top: 1%;
+  right: -15vh;
   background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
-  border-radius: 100vw;
-  border: 1px solid black;
-
-
-  box-shadow: 0 0 5vh 5vh pink;
+  border-radius: 10vw;
+  border: 5px solid pink;
+  box-shadow:inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw pink;
   margin: auto;
 }
 
@@ -2708,20 +2692,18 @@ s {
 }
 
 .sidenav26 {
-  width: 98%;
-  height: 0;
+  height: 98%;
+  width: 0;
   position: fixed;
   z-index: 1;
-  right: 1%;
-  bottom: -15vh;
+  top: 1%;
+  right: -15vh;
   background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
-  border-radius: 100vw;
-  border: 1px solid black;
-
-
-  box-shadow: 0 0 5vh 5vh pink;
+  border-radius: 10vw;
+  border: 5px solid pink;
+  box-shadow:inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw pink;
   margin: auto;
 }
 
@@ -2798,20 +2780,18 @@ s {
 }
 
 .sidenav27 {
-  width: 98%;
-  height: 0;
+  height: 98%;
+  width: 0;
   position: fixed;
   z-index: 1;
-  right: 1%;
-  bottom: -15vh;
+  top: 1%;
+  right: -15vh;
   background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
-  border-radius: 100vw;
-  border: 1px solid black;
-
-
-  box-shadow: 0 0 5vh 5vh pink;
+  border-radius: 10vw;
+  border: 5px solid pink;
+  box-shadow:inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw pink;
   margin: auto;
 }
 
@@ -2888,20 +2868,18 @@ s {
 }
 
 .sidenav28 {
-  width: 98%;
-  height: 0;
+  height: 98%;
+  width: 0;
   position: fixed;
   z-index: 1;
-  right: 1%;
-  bottom: -15vh;
+  top: 1%;
+  right: -15vh;
   background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
-  border-radius: 100vw;
-  border: 1px solid black;
-
-
-  box-shadow: 0 0 5vh 5vh pink;
+  border-radius: 10vw;
+  border: 5px solid pink;
+  box-shadow:inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw pink;
   margin: auto;
 }
 
