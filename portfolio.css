@@ -497,7 +497,7 @@ s {
   width: 0;
   position: fixed;
   z-index: 1;
-  bottom: 1%;
+  top: 1%;
   right: -15vh;
   background-color: whitesmoke;
   overflow-x: hidden;
