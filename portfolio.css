@@ -493,12 +493,12 @@ s {
 }
 
 .sidenav1 {
-  width: 98%;
-  height: 0;
+  height: 98%;
+  width: 0;
   position: fixed;
   z-index: 1;
-  right: 1%;
-  bottom: -15vh;
+  bottom: 1%;
+  right: -15vh;
   background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
