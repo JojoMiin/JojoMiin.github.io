@@ -412,7 +412,7 @@ s {
   border-radius: 2vh;
   margin-bottom: 15px;
   text-align: right;
-  box-shadow: inset 5px 5px 7px #7d4f56, inset -5px -5px 7px #ffcdd9;
+  box-shadow: inset calc(5px + .3vw) calc(5px + .3vw) calc(5px + .3vw) #7d4f56, inset calc(-5px - .3vw) calc(-5px - .3vw) calc(5px + .3vw) #ffcdd9;
 }
 
 .grid-item:hover {
@@ -503,8 +503,8 @@ s {
   overflow-x: hidden;
   transition: 0.75s;
   border-radius: 10vw;
-  border: 10px solid pink;
-  box-shadow: 0 0 5vh 5vh pink;
+  border: 5px solid pink;
+  box-shadow:inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw pink;
   margin: auto;
 }
 
