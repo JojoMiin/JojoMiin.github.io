@@ -590,7 +590,9 @@ s {
   overflow-x: hidden;
   transition: 0.75s;
   border-radius: 10vw;
-  border: 10px solid pink;
+  border: 5px solid pink;
+  box-shadow:inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw pink;
+  margin: auto;
 
 
   box-shadow: 0 0 5vh 5vh pink;
@@ -680,7 +682,9 @@ s {
   overflow-x: hidden;
   transition: 0.75s;
   border-radius: 10vw;
-  border: 10px solid pink;
+  border: 5px solid pink;
+  box-shadow:inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw pink;
+  margin: auto;
 
 
   box-shadow: 0 0 5vh 5vh pink;
@@ -769,8 +773,10 @@ s {
   background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
-  border-radius: 100vw;
-  border: 1px solid black;
+  border-radius: 10vw;
+  border: 5px solid pink;
+  box-shadow:inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw pink;
+  margin: auto;
 
 
   box-shadow: 0 0 5vh 5vh pink;
