@@ -376,6 +376,7 @@ s {
   background: black;
   font-family: 'Necto-Mono';
   font-weight: normal;
+  font-style: normal;
 }
 
 .pill_menu.selected {
@@ -383,7 +384,7 @@ s {
   background: black;
   font-family: 'Necto-Mono';
   font-weight: normal;
-  font-style: italic;
+  font-style: normal;
 }
 
 .header {
