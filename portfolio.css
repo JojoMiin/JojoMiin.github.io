@@ -229,16 +229,15 @@ s {
 }
 
 .menubar .menubar-item {
-  /* background-color: rgb(252, 46, 1); */
-  background-color: pink;
-  margin-bottom: 10%;
+  background: linear-gradient(145deg, pink, #ffd8e1);
+  box-shadow: inset calc(5px + .3vw) calc(5px + .3vw) calc(5px + .3vw) #7d4f56, inset calc(-5px - .3vw) calc(-5px - .3vw) calc(5px + .3vw) #ffcdd9;
+  margin-bottom: 15px;
   position: relative;
-  padding: 3px;
-  top: 1.5%;
-  left: 7%;
-  width: 85%;
-  border-radius: 20px;
-  border: .325vw solid;
+  padding: 15px;
+  top: 2%;
+  left: 2%;
+  width: 92%;
+  border-radius: 2vh;
 }
 
 .menubar .about {
