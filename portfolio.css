@@ -242,9 +242,8 @@ s {
 }
 
 .menubar .about {
-  position: fixed;
+  position: relative;
   height: 100%;
-  width: 25%;
   z-index: 1;
   top: 0;
   right: 0;
