@@ -241,6 +241,15 @@ s {
   border: .325vw solid;
 }
 
+.menubar .about {
+  position: fixed;
+  height: 100%;
+  width: 25%;
+  z-index: 1;
+  top: 0;
+  right: 0;
+}
+
 .menubar .about .title {
   font-family: 'Montserrat-LightItalic';
   font-weight: normal;
@@ -248,7 +257,7 @@ s {
   margin-bottom: 0.3em;
 }
 
-.menubar .info {
+.menubar .about .info {
   font-family: 'Montserrat-LightItalic';
   font-weight: normal;
   font-size: 15px;
