@@ -387,7 +387,7 @@ s {
   font-style: italic;
 }
 
-#header {
+.header {
   column-count: 2;
 /*   margin-left: calc(17% + 1px); */
   position: inherit;
@@ -396,7 +396,7 @@ s {
   height: auto;
 }
 
-#header .name {
+.header .name {
   font-family: 'Montserrat-Bold';
   font-style: normal;
   font-size: 30px;
