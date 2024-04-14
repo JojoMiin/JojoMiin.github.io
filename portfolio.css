@@ -222,7 +222,7 @@ s {
 .menubar {
   position: fixed;
   height: 100%;
-  width: 17%;
+  width: 25%;
   z-index: 1;
   top: 0;
   left: 0;
@@ -389,7 +389,7 @@ s {
 }
 
 .grid-wrapper {
-  padding-left: calc(17% + 2px);
+  padding-right: calc(25% + 2px);
 }
 
 .grid-container {
@@ -3051,7 +3051,7 @@ s {
   }
 
   .grid-wrapper {
-    padding-left: 0%;
+    padding-right: 0%;
   }
 
   .grid-item .summary .title {
