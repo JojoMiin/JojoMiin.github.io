@@ -355,10 +355,10 @@ s {
 
 .pill_menu {
   position: relative;
-  border: 1px solid black;
   color: black;
-  padding: 2px 10px 3px 10px;
-  margin: 3px;
+  padding: 2px 10px 5px 10px;
+  transition: 0.3s;
+  margin: 1px;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
@@ -368,6 +368,7 @@ s {
   font-weight: normal;
   font-size: 12px;
   background: whitesmoke;
+  font-style: italic;
 }
 
 .pill_menu:hover {
@@ -375,7 +376,6 @@ s {
   background: black;
   font-family: 'Necto-Mono';
   font-weight: normal;
-  font-style: italic;
 }
 
 .pill_menu.selected {
