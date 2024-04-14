@@ -241,6 +241,13 @@ s {
   border: .325vw solid;
 }
 
+.menubar .info {
+  font-family: 'Montserrat-LightItalic';
+  font-weight: normal;
+  font-size: 15px;
+  margin-bottom: 0.3em;
+}
+
 .menubar .menubar-item .contact {
   position: fixed;
   font-family: 'Necto-Mono';
