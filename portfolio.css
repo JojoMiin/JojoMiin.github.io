@@ -394,6 +394,7 @@ s {
   color: black;
   height: 10vh;
   width: 74%;
+  transition: 0.8s;
   z-index: 1;
 }
 
@@ -405,6 +406,7 @@ s {
 }
 
 .grid-wrapper {
+  padding-top: 10vh;
   padding-right: calc(25% + 2px);
 }
 
@@ -3053,20 +3055,12 @@ s {
   }
 
   .header {
-    column-count: 1;
     margin: 0%;
     border: 0px solid black;
   }
 
-  .header .me{
-    font-size: 13px;
-  }
-
-  .popup {
-    font-size: 11px;
-  }
-
   .grid-wrapper {
+    padding-top: 13vh;
     padding-right: 0%;
   }
 
@@ -3075,7 +3069,7 @@ s {
   }
 
   .header .name {
-    font-size: 69px;
+    font-size: 10vh;
     margin-top: -15px;
   }
 
