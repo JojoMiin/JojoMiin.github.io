@@ -99,7 +99,7 @@ var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
     document.getElementById("header").style.top = "0";
   } else {
-    document.getElementById("header").style.top = "-20vh";
+    document.getElementById("header").style.top = "-10vh";
   }
   prevScrollpos = currentScrollPos;
 }
