@@ -388,19 +388,20 @@ s {
 }
 
 .header {
-  column-count: 2;
-/*   margin-left: calc(17% + 1px); */
-  position: inherit;
-  padding: 16px 16px;
+  position: fixed;
+  background-color: whitesmoke;
+  padding: 15px;
   color: black;
-  height: auto;
+  height: 10vh;
+  width: 74%;
+  z-index: 1;
 }
 
 .header .name {
   font-family: 'Montserrat-Bold';
   font-style: normal;
-  font-size: 30px;
-  margin-bottom: 7px;
+  font-size: 6vh;
+  margin-top: -1vh;
 }
 
 .grid-wrapper {
