@@ -3057,6 +3057,7 @@ s {
 
   .header {
     margin: 0%;
+    height: 13vh;
     width: 100%;
     border: 0px solid black;
   }
