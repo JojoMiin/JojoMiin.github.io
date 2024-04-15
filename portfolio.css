@@ -356,7 +356,7 @@ s {
   color: black;
   padding: 2px 10px 5px 10px;
   transition: 0.3s;
-  margin: 0.15em
+  margin: 0.15em;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
@@ -2995,7 +2995,7 @@ s {
   color: whitesmoke;
   padding: 2px 10px 5px 10px;
   transition: 0.3s;
-  margin: 0.15em
+  margin: 0.15em;
   cursor: pointer;
   background-color: black;
   text-align: center;
