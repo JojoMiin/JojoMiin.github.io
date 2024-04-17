@@ -107,51 +107,30 @@ var currentScrollPos = window.pageYOffset;
 
 
 
+    function openNavTag() {
+      document.getElementById("mySidenavTag").style.width = "98%";
+      document.getElementById("mySidenavTag").style.right = "1%";
+    }
 
-document.addEventListener('DOMContentLoaded', function() {
-  var openTagsButton = document.getElementById('openTagsButton');
-  var closeTagsButton = document.getElementById('closeTags');
-  var tagsOverlay = document.getElementById('tagsOverlay');
-  var openAboutButton = document.getElementById('openAboutButton');
-  var closeAboutButton = document.getElementById('closeAbout');
-  var aboutOverlay = document.getElementById('aboutOverlay');
+    function closeNavTag() {
+      document.getElementById("mySidenavTag").style.width = "0";
+      document.getElementById("mySidenavTag").style.right = "-50vw";
+    }
 
-  openTagsButton.addEventListener('click', function() {
-    openTagsOverlay();
-  });
 
-  closeTagsButton.addEventListener('click', function() {
-    closeTagsOverlay();
-  });
 
-  openAboutButton.addEventListener('click', function() {
-    openAboutOverlay();
-  });
+    function openNavAbout() {
+      document.getElementById("mySidenavAbout").style.width = "98%";
+      document.getElementById("mySidenavAbout").style.right = "1%";
+    }
 
-  closeAboutButton.addEventListener('click', function() {
-    closeAboutOverlay();
-  });
-});
+    function closeNavAbout() {
+      document.getElementById("mySidenavAbout").style.width = "0";
+      document.getElementById("mySidenavAbout").style.right = "-50vw";
+    }
 
-function openTagsOverlay() {
-  var tagsOverlay = document.getElementById('tagsOverlay');
-  tagsOverlay.querySelector('.overlay-content').style.width = '100%';
-}
 
-function closeTagsOverlay() {
-  var tagsOverlay = document.getElementById('tagsOverlay');
-  tagsOverlay.querySelector('.overlay-content').style.width = '0';
-}
 
-function openAboutOverlay() {
-  var aboutOverlay = document.getElementById('aboutOverlay');
-  aboutOverlay.querySelector('.overlay-content').style.width = '100%';
-}
-
-function closeAboutOverlay() {
-  var aboutOverlay = document.getElementById('aboutOverlay');
-  aboutOverlay.querySelector('.overlay-content').style.width = '0';
-}
 
 
 
