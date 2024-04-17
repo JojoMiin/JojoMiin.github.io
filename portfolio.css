@@ -423,6 +423,14 @@ s {
   margin-top: -1vh;
 }
 
+.header .name2 {
+  font-family: 'Montserrat-Bold';
+  position: absolute;
+  font-style: normal;
+  display: inline-block;
+  font-size: 6vh;
+}
+
 .grid-wrapper {
   padding-top: 10vh;
   padding-right: calc(25% + 2px);
@@ -3337,6 +3345,10 @@ s {
     padding: .5vh 0vh 1vh 0vh;
     right: 15px;
     display: inline-block;
+  }
+
+  .header .name2 {
+    font-size: 0;
   }
 
 }
