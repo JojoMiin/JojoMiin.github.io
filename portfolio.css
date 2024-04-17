@@ -425,7 +425,7 @@ s {
 
 .header .name2 {
   font-family: 'Montserrat-Bold';
-  position: absolute;
+  position: relative;
   font-style: normal;
   display: inline-block;
   font-size: 6vh;
