@@ -400,6 +400,7 @@ s {
   visibility: hidden;
   display: inline-block;
   padding: 0;
+  width: 0;
 }
 
 .header .navButtons .navTagButton{
@@ -415,6 +416,7 @@ s {
 
 .header .name {
   font-family: 'Montserrat-Bold';
+  position: absolute;
   font-style: normal;
   display: inline-block;
   font-size: 6vh;
@@ -3256,7 +3258,7 @@ s {
 
   .header {
     margin: 0%;
-    height: 13vh;
+    height: 11vh;
     width: 100%;
   }
 
@@ -3265,15 +3267,16 @@ s {
     background: linear-gradient(145deg, pink, #ffd8e1);
     box-shadow: inset calc(5px + .3vw) calc(5px + .3vw) calc(5px + .3vw) #7d4f56, inset calc(-5px - .3vw) calc(-5px - .3vw) calc(5px + .3vw) #ffcdd9;
     position: relative;
-    padding: 3vw;
+    padding: 1.9vh 3vw 1.6vh 3.5vw;
     border-radius: 2vh;
+    width: auto;
     display: inline-block;
   }
 
   .header .navButtons .navTagButton{
     color: whitesmoke;
     visibility: visible;
-    padding: 1.5vw 3vw 2vw 3vw;
+    padding: 0.5vh 3vw 0.8vh 3vw;
     transition: 0.3s;
     cursor: pointer;
     background-color: black;
@@ -3283,27 +3286,28 @@ s {
     border-radius: 18px;
     font-family: 'Necto-Mono';
     font-weight: normal;
-    font-size: 14px;
+    font-size: 1.8vh;
   }
 
   .header .navButtons .navAboutButton{
-    color: whitesmoke;
+    color: black;
     visibility: visible;
-    padding: 1.5vw 3vw 2vw 3vw;
+    padding: 0.5vh 3vw 0.8vh 3vw;
     transition: 0.3s;
     cursor: pointer;
-    background-color: black;
+    background-color: whitesmoke;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     border-radius: 18px;
     font-family: 'Necto-Mono';
     font-weight: normal;
-    font-size: 14px;
+    font-size: 1.8vh;
+    font-style: italic;
   }
 
   .grid-wrapper {
-    padding-top: 13vh;
+    padding-top: 11vh;
     padding-right: 0%;
   }
 
@@ -3312,8 +3316,11 @@ s {
   }
 
   .header .name {
-    font-size: 10vh;
-    margin-top: -15px;
+    font-size: 5vh;
+    position: absolute;
+    margin-top: 0;
+    padding: .5vh 0vh 1vh 0vh;
+    right: 15px;
     display: inline-block;
   }
 
