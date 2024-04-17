@@ -503,14 +503,18 @@ s {
   z-index: +1;
 }
 
-
-.header .navTagButton{
+.header .navButtons{
+  visibility: hidden;
   padding: 15px;
+}
+
+.header .navButtons .navTagButton{
+  padding: 2px;
   visibility: hidden;
 }
 
-.header .navAboutButton{
-  padding: 15px;
+.header .navButtons .navAboutButton{
+  padding: 2px;
   visibility: hidden;
 }
 
@@ -3255,13 +3259,19 @@ s {
     border: 0px solid black;
   }
 
-  .header .navTagButton{
+  .header .navButtons{
+    visibility: visible;
+    background: grey;
     padding: 15px;
+  }
+
+  .header .navButtons .navTagButton{
+    padding: 2px;
     visibility: visible;
   }
 
-  .header .navAboutButton{
-    padding: 15px;
+  .header .navButtons .navAboutButton{
+    padding: 2px;
     visibility: visible;
   }
 
