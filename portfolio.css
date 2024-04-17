@@ -505,16 +505,16 @@ s {
 
 .header .navButtons{
   visibility: hidden;
-  padding: 15px;
+  padding: 0;
 }
 
 .header .navButtons .navTagButton{
-  padding: 2px;
+  padding: 0;
   visibility: hidden;
 }
 
 .header .navButtons .navAboutButton{
-  padding: 2px;
+  padding: 0;
   visibility: hidden;
 }
 
@@ -3262,17 +3262,24 @@ s {
 
   .header .navButtons{
     visibility: visible;
-    background: grey;
+    background: linear-gradient(145deg, pink, #ffd8e1);
+    box-shadow: inset calc(5px + .3vw) calc(5px + .3vw) calc(5px + .3vw) #7d4f56, inset calc(-5px - .3vw) calc(-5px - .3vw) calc(5px + .3vw) #ffcdd9;
+    position: relative;
     padding: 15px;
+    border-radius: 2vh;
   }
 
   .header .navButtons .navTagButton{
     padding: 2px;
+    color: whitesmoke;
+    background: black;
     visibility: visible;
   }
 
   .header .navButtons .navAboutButton{
     padding: 2px;
+    color: whitesmoke;
+    background: black;
     visibility: visible;
   }
 
