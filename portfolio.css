@@ -391,6 +391,7 @@ s {
   padding: 15px;
   color: black;
   height: 10vh;
+  column-count: 2;
   width: 74.8%;
   transition: 0.8s;
   z-index: 1;
