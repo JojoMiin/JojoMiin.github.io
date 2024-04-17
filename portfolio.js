@@ -112,6 +112,9 @@ document.addEventListener('DOMContentLoaded', function() {
   var openTagsButton = document.getElementById('openTagsButton');
   var closeTagsButton = document.getElementById('closeTags');
   var tagsOverlay = document.getElementById('tagsOverlay');
+  var openAboutButton = document.getElementById('openAboutButton');
+  var closeAboutButton = document.getElementById('closeAbout');
+  var aboutOverlay = document.getElementById('aboutOverlay');
 
   openTagsButton.addEventListener('click', function() {
     openTagsOverlay();
@@ -119,6 +122,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
   closeTagsButton.addEventListener('click', function() {
     closeTagsOverlay();
+  });
+
+  openAboutButton.addEventListener('click', function() {
+    openAboutOverlay();
+  });
+
+  closeAboutButton.addEventListener('click', function() {
+    closeAboutOverlay();
   });
 });
 
@@ -132,6 +143,18 @@ function closeTagsOverlay() {
   var tagsOverlay = document.getElementById('tagsOverlay');
   tagsOverlay.classList.remove('show');
   tagsOverlay.querySelector('.overlay-content').style.width = '0';
+}
+
+function openAboutOverlay() {
+  var aboutOverlay = document.getElementById('aboutOverlay');
+  aboutOverlay.classList.add('show');
+  aboutOverlay.querySelector('.overlay-content').style.width = '100%';
+}
+
+function closeAboutOverlay() {
+  var aboutOverlay = document.getElementById('aboutOverlay');
+  aboutOverlay.classList.remove('show');
+  aboutOverlay.querySelector('.overlay-content').style.width = '0';
 }
 
 
