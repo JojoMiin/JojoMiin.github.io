@@ -60,18 +60,40 @@
   </div>
 
   <div id="header" class="header">
-    <button id="openTagsButton" class="mobile-only">Tags</button>
-    <button id="openAboutButton" class="mobile-only">About Me</button>
+    <button style="padding:15px" onclick="openNavTag()">Tags</button>
+    <button style="padding:15px" onclick="openNavAbout()">About Me</button>
     <div class="name">J<s>ojo</s>M<s>iin</s></div>
   </div>
 
 
-  
-  <div id="tagsOverlay" class="overlay">
-    <div class="overlay-content">
-      <span class="close" id="closeTags">&times;</span>
-      <h2>Tags</h2>
-      <p>This is some information about tags.</p>
+  <div id="mySidenavTag" class="sidenavTag">
+    <div style="position: fixed; width: 45%; padding-left:5%; padding-top: 8vh">
+      <a style="cursor:pointer" class="closebtnTag" onclick="closeNavTag()">[X]</a>
+      <h1 class="title">TAGS</h1>
+      <h1 class="info">tags</h1>
+      <div class="box">
+        <p>tag...</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="mySidenavAbout" class="sidenavAbout">
+    <div style="position: fixed; width: 45%; padding-left:5%; padding-top: 8vh">
+      <a style="cursor:pointer" class="closebtnAbout" onclick="closeNavAbout()">[X]</a>
+      <h1 class="title">ABOUT ME</h1>
+      <h1 class="info">
+      In this project I try to illustrate, in a hyperbolic
+      and slightly morbid way, the dehumanising, oppressive and
+      discriminating memetic myths consistently repeated in video
+      games, as they are currently the most dominant medium of communication in terms of
+      use and profit. The social facts that we internalise while <mark>"praying"</mark> – devoting our time, money and emotions –
+      undoubtably enter our everyday lives by what / how we act towards other people. We should not dismiss
+      or fearmonger video games as the creators and only propagators of all modern evils – but
+      neither should we accept the socially enforced worst part of them as norm, solely because someone once said it is <mark>"just a game"</mark>.
+      </h1>
+      <div class="box">
+        <p>about...</p>
+      </div>
     </div>
   </div>
 
