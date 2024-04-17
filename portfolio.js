@@ -109,24 +109,24 @@ var currentScrollPos = window.pageYOffset;
 
     function openNavTag() {
       document.getElementById("mySidenavTag").style.width = "98%";
-      document.getElementById("mySidenavTag").style.right = "1%";
+      document.getElementById("mySidenavTag").style.left = "1%";
     }
 
     function closeNavTag() {
       document.getElementById("mySidenavTag").style.width = "0";
-      document.getElementById("mySidenavTag").style.right = "-50vw";
+      document.getElementById("mySidenavTag").style.left = "-50vw";
     }
 
 
 
     function openNavAbout() {
       document.getElementById("mySidenavAbout").style.width = "98%";
-      document.getElementById("mySidenavAbout").style.right = "1%";
+      document.getElementById("mySidenavAbout").style.left = "1%";
     }
 
     function closeNavAbout() {
       document.getElementById("mySidenavAbout").style.width = "0";
-      document.getElementById("mySidenavAbout").style.right = "-50vw";
+      document.getElementById("mySidenavAbout").style.left = "-50vw";
     }
 
 
