@@ -506,11 +506,13 @@ s {
 .header .navTagButton{
   padding: 15px;
   visibility: hidden;
+  z-index: 2;
 }
 
 .header .navAboutButton{
   padding: 15px;
   visibility: hidden;
+  z-index: 2;
 }
 
 
