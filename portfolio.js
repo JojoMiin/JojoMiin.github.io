@@ -104,6 +104,40 @@ var currentScrollPos = window.pageYOffset;
   prevScrollpos = currentScrollPos;
 }
 
+
+
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  var openTagsButton = document.getElementById('openTagsButton');
+  var closeTagsButton = document.getElementById('closeTags');
+  var tagsOverlay = document.getElementById('tagsOverlay');
+
+  openTagsButton.addEventListener('click', function() {
+    openTagsOverlay();
+  });
+
+  closeTagsButton.addEventListener('click', function() {
+    closeTagsOverlay();
+  });
+});
+
+function openTagsOverlay() {
+  var tagsOverlay = document.getElementById('tagsOverlay');
+  tagsOverlay.classList.add('show');
+  tagsOverlay.querySelector('.overlay-content').style.width = '100%';
+}
+
+function closeTagsOverlay() {
+  var tagsOverlay = document.getElementById('tagsOverlay');
+  tagsOverlay.classList.remove('show');
+  tagsOverlay.querySelector('.overlay-content').style.width = '0';
+}
+
+
+
+
+
     function openNav1() {
       document.getElementById("mySidenav1").style.width = "98%";
       document.getElementById("mySidenav1").style.right = "1%";
