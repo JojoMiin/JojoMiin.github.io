@@ -391,15 +391,32 @@ s {
   padding: 15px;
   color: black;
   height: 10vh;
-  column-count: 2;
   width: 74.8%;
   transition: 0.8s;
   z-index: 1;
 }
 
+.header .navButtons{
+  visibility: hidden;
+  display: inline-block;
+  padding: 0;
+}
+
+.header .navButtons .navTagButton{
+  padding: 0;
+  visibility: hidden;
+}
+
+.header .navButtons .navAboutButton{
+  padding: 0;
+  visibility: hidden;
+}
+
+
 .header .name {
   font-family: 'Montserrat-Bold';
   font-style: normal;
+  display: inline-block;
   font-size: 6vh;
   margin-top: -1vh;
 }
@@ -502,22 +519,6 @@ s {
   display: none;
   z-index: +1;
 }
-
-.header .navButtons{
-  visibility: hidden;
-  padding: 0;
-}
-
-.header .navButtons .navTagButton{
-  padding: 0;
-  visibility: hidden;
-}
-
-.header .navButtons .navAboutButton{
-  padding: 0;
-  visibility: hidden;
-}
-
 
 
 /* --------------------- */
@@ -3257,7 +3258,6 @@ s {
     margin: 0%;
     height: 13vh;
     width: 100%;
-    border: 0px solid black;
   }
 
   .header .navButtons{
@@ -3265,8 +3265,9 @@ s {
     background: linear-gradient(145deg, pink, #ffd8e1);
     box-shadow: inset calc(5px + .3vw) calc(5px + .3vw) calc(5px + .3vw) #7d4f56, inset calc(-5px - .3vw) calc(-5px - .3vw) calc(5px + .3vw) #ffcdd9;
     position: relative;
-    padding: 15px;
+    padding: 3vw;
     border-radius: 2vh;
+    display: inline-block;
   }
 
   .header .navButtons .navTagButton{
@@ -3313,6 +3314,7 @@ s {
   .header .name {
     font-size: 10vh;
     margin-top: -15px;
+    display: inline-block;
   }
 
 }
