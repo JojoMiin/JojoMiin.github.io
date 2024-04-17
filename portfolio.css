@@ -503,6 +503,16 @@ s {
 }
 
 
+.header .navTagButton{
+  padding: 15px;
+  visibility: hidden;
+}
+
+.header .navAboutButton{
+  padding: 15px;
+  visibility: hidden;
+}
+
 
 
 /* --------------------- */
@@ -3242,6 +3252,16 @@ s {
     height: 13vh;
     width: 100%;
     border: 0px solid black;
+  }
+
+  .header .navTagButton{
+    padding: 15px;
+    visibility: visible;
+  }
+
+  .header .navAboutButton{
+    padding: 15px;
+    visibility: visible;
   }
 
   .grid-wrapper {
