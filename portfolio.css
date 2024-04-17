@@ -503,6 +503,192 @@ s {
 }
 
 
+
+
+/* --------------------- */
+.sidenavTag::-webkit-scrollbar {
+  display: none;
+}
+
+.sidenavTag {
+  height: 98%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 1%;
+  right: -50vw;
+  background-color: whitesmoke;
+  overflow-x: hidden;
+  transition: 0.75s;
+  border-radius: 10vw;
+  border: 5px solid pink;
+  box-shadow:inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw pink;
+  margin: auto;
+}
+
+.sidenavTag .title {
+  font-family: 'Montserrat-SemiBold';
+  font-weight: normal;
+  font-style: normal;
+  font-size: calc(2px + 4vw);
+  text-align: right;
+  line-height: 105%;
+  padding-bottom: 2%;
+}
+
+.sidenavTag .info {
+  font-family: 'Montserrat-LightItalic';
+  font-weight: normal;
+  font-size: 1.5vh;
+  margin-bottom: 1vh;
+  text-align: right;
+}
+
+.sidenavTag h1 {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+.sidenavTag a {
+  font-size: 1.5vh;
+  font-family: 'Montserrat-LightItalic';
+  font-style: italic;
+}
+
+.sidenavTag img {
+  position: inherit;
+  width: 43vw;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 2vw;
+}
+
+.centerTag {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90vw;
+}
+
+.sidenavTag .closebtnTag {
+  position: absolute;
+  font-family: 'Montserrat-SemiBold';
+  font-weight: normal;
+  font-style: normal;
+  color: black;
+  font-size: calc(2px + 4vw);
+  right: 0;
+  text-align: right;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenavTag {
+    padding-top: 15px;
+  }
+
+  .sidenavTag a {
+    font-size: 18px;
+  }
+}
+
+/* --------------------- */
+.sidenavAbout::-webkit-scrollbar {
+  display: none;
+}
+
+.sidenavAbout {
+  height: 98%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 1%;
+  right: -50vw;
+  background-color: whitesmoke;
+  overflow-x: hidden;
+  transition: 0.75s;
+  border-radius: 10vw;
+  border: 5px solid pink;
+  box-shadow:inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw pink;
+  margin: auto;
+}
+
+.sidenavAbout .title {
+  font-family: 'Montserrat-SemiBold';
+  font-weight: normal;
+  font-style: normal;
+  font-size: calc(2px + 4vw);
+  text-align: right;
+  line-height: 105%;
+  padding-bottom: 2%;
+}
+
+.sidenavAbout .info {
+  font-family: 'Montserrat-LightItalic';
+  font-weight: normal;
+  font-size: 1.5vh;
+  margin-bottom: 1vh;
+  text-align: right;
+}
+
+.sidenavAbout h1 {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+.sidenavAbout a {
+  font-size: 1.5vh;
+  font-family: 'Montserrat-LightItalic';
+  font-style: italic;
+}
+
+.sidenavAbout img {
+  position: inherit;
+  width: 43vw;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 2vw;
+}
+
+.centerAbout {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90vw;
+}
+
+.sidenavAbout .closebtnAbout {
+  position: absolute;
+  font-family: 'Montserrat-SemiBold';
+  font-weight: normal;
+  font-style: normal;
+  color: black;
+  font-size: calc(2px + 4vw);
+  right: 0;
+  text-align: right;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenavAbout {
+    padding-top: 15px;
+  }
+
+  .sidenavAbout a {
+    font-size: 18px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
 /* --------------------- */
 .sidenav1::-webkit-scrollbar {
   display: none;
@@ -3074,54 +3260,3 @@ s {
 
 }
 
-
-
-.overlay {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(255, 255, 255, 0);
-  z-index: 1000;
-}
-
-.overlay.show {
-  display: block;
-}
-
-.overlay-content {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 0;
-  height: 100%;
-  background-color: white;
-  padding: 20px;
-  box-sizing: border-box;
-  border: 5px solid pink; /* Add border */
-  overflow-y: auto; /* Enable vertical scrolling */
-  transition: width 0.5s ease;
-}
-
-.close {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  cursor: pointer;
-}
-
-.mobile-only {
-  display: none;
-  padding: 15px;
-}
-
-@media (max-width: 768px) {
-  .mobile-only {
-    display: inline-block;
-  }
-  .overlay-content {
-    width: 100%;
-  }
-}
