@@ -135,25 +135,21 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function openTagsOverlay() {
   var tagsOverlay = document.getElementById('tagsOverlay');
-  tagsOverlay.classList.add('show');
   tagsOverlay.querySelector('.overlay-content').style.width = '100%';
 }
 
 function closeTagsOverlay() {
   var tagsOverlay = document.getElementById('tagsOverlay');
-  tagsOverlay.classList.remove('show');
   tagsOverlay.querySelector('.overlay-content').style.width = '0';
 }
 
 function openAboutOverlay() {
   var aboutOverlay = document.getElementById('aboutOverlay');
-  aboutOverlay.classList.add('show');
   aboutOverlay.querySelector('.overlay-content').style.width = '100%';
 }
 
 function closeAboutOverlay() {
   var aboutOverlay = document.getElementById('aboutOverlay');
-  aboutOverlay.classList.remove('show');
   aboutOverlay.querySelector('.overlay-content').style.width = '0';
 }
 
