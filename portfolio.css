@@ -3270,17 +3270,35 @@ s {
   }
 
   .header .navButtons .navTagButton{
-    padding: 2px;
     color: whitesmoke;
-    background: black;
     visibility: visible;
+    padding: 1.5vw 3vw 2vw 3vw;
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 18px;
+    font-family: 'Necto-Mono';
+    font-weight: normal;
+    font-size: 14px;
   }
 
   .header .navButtons .navAboutButton{
-    padding: 2px;
     color: whitesmoke;
-    background: black;
     visibility: visible;
+    padding: 1.5vw 3vw 2vw 3vw;
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 18px;
+    font-family: 'Necto-Mono';
+    font-weight: normal;
+    font-size: 14px;
   }
 
   .grid-wrapper {
