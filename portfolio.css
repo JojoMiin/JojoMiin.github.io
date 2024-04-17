@@ -3287,6 +3287,14 @@ s {
     font-family: 'Necto-Mono';
     font-weight: normal;
     font-size: 1.8vh;
+    font-style: normal;
+  }
+
+  .header .navButtons .navTagButton:hover{
+    color: black;
+    transition: 0.3s;
+    background-color: whitesmoke;
+    font-style: italic;
   }
 
   .header .navButtons .navAboutButton{
@@ -3304,6 +3312,13 @@ s {
     font-weight: normal;
     font-size: 1.8vh;
     font-style: italic;
+  }
+
+  .header .navButtons .navAboutButton:hover{
+    color: whitesmoke;
+    transition: 0.3s;
+    background-color: black;
+    font-style: normal;
   }
 
   .grid-wrapper {
