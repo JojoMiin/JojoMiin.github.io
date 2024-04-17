@@ -620,7 +620,7 @@ s {
   top: 1%;
   left: -50vw;
   background-color: whitesmoke;
-  overflow-x: hiddem;
+  overflow-x: hidden;
   overflow-y: scroll;
   transition: 0.75s;
   border-radius: 10vw;
