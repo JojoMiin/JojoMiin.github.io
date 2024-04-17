@@ -531,7 +531,7 @@ s {
   position: fixed;
   z-index: 2;
   top: 1%;
-  right: -50vw;
+  left: -50vw;
   background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
@@ -618,7 +618,7 @@ s {
   position: fixed;
   z-index: 2;
   top: 1%;
-  right: -50vw;
+  left: -50vw;
   background-color: whitesmoke;
   overflow-x: hidden;
   transition: 0.75s;
