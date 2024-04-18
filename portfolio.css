@@ -386,7 +386,7 @@ s {
 }
 
 .header {
-  position: fixed;
+  position: absolute;
   background-color: whitesmoke;
   padding: 15px;
   color: black;
@@ -3283,6 +3283,7 @@ s {
     margin: 0%;
     height: 11vh;
     width: 100%;
+    position: fixed;
   }
 
   .header .navButtons{
