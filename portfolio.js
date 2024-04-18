@@ -93,6 +93,8 @@ window.onload = function() {
 
 }
 
+
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function header() {
 var currentScrollPos = window.pageYOffset;
@@ -103,7 +105,7 @@ var currentScrollPos = window.pageYOffset;
   }
   prevScrollpos = currentScrollPos;
 }
-
+}
 
 
     function openNavTag() {
