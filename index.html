@@ -1757,14 +1757,24 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
       
       var summary = gridItem.querySelector('.summary');
       if (summary) {
-        var h1Elements = summary.querySelectorAll('h1.title, h1.info');
-        h1Elements.forEach(function(h1) {
+        var titleElement = summary.querySelectorAll('.title');
+        var infoElement = summary.querySelectorAll('.info');
+        
+        if (titleElement) {
           if (rect.top >= 0 && rect.bottom <= windowHeight) {
-            h1.classList.add('hover-effect');
+            titleElement.classList.add('hover-effect');
           } else {
-            h1.classList.remove('hover-effect');
+            titleElement.classList.remove('hover-effect');
           }
-        });
+        }
+
+        if (infoElement) {
+          if (rect.top >= 0 && rect.bottom <= windowHeight) {
+            infoElement.classList.add('hover-effect');
+          } else {
+            infoElement.classList.remove('hover-effect');
+          }
+        }
       }
     });
   });
