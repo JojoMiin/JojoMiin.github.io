@@ -464,6 +464,11 @@ s {
   background: whitesmoke;
 }
 
+.grid-item.hovered {
+  border-radius: 150vw;
+  background: whitesmoke;
+}
+
 .grid-item .summary {
   margin-bottom: 1em;
   display: table;
@@ -500,7 +505,17 @@ s {
   font-weight: normal;
 }
 
+.grid-item.hovered .summary .title {
+  font-family: 'Montserrat-LightItalic';
+  font-weight: normal;
+}
+
 .grid-item:hover .summary .info {
+  font-style: normal;
+  font-family: 'Montserrat-Bold';
+}
+
+.grid-item.hovered .summary .info {
   font-style: normal;
   font-family: 'Montserrat-Bold';
 }
