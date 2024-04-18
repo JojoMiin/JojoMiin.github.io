@@ -3350,6 +3350,10 @@ s {
     padding-right: 0%;
   }
 
+  .grid-item {
+    transition: 1.5s;
+  }
+
   .grid-item .summary .title {
     font-size: 8vw;
   }
