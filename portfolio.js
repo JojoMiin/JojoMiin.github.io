@@ -107,6 +107,36 @@ var currentScrollPos = window.pageYOffset;
 
 
 
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+  var gridItems = document.querySelectorAll('.grid-item');
+  
+  window.addEventListener('scroll', function() {
+    var windowHeight = window.innerHeight || document.documentElement.clientHeight;
+    gridItems.forEach(function(gridItem) {
+      var rect = gridItem.getBoundingClientRect();
+      if (rect.top >= 0 && rect.bottom <= windowHeight) {
+        gridItem.classList.add('hovered');
+        var summary = gridItem.querySelector('.summary');
+        if (summary) {
+          summary.querySelector('.title').classList.add('hovered');
+          summary.querySelector('.info').classList.add('hovered');
+        }
+      } else {
+        gridItem.classList.remove('hovered');
+        var summary = gridItem.querySelector('.summary');
+        if (summary) {
+          summary.querySelector('.title').classList.remove('hovered');
+          summary.querySelector('.info').classList.remove('hovered');
+        }
+      }
+    });
+  });
+}
+
+
+
+
+
     function openNavTag() {
       document.getElementById("mySidenavTag").style.width = "98%";
       document.getElementById("mySidenavTag").style.left = "1%";
