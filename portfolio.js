@@ -97,18 +97,16 @@ window.onload = function() {
 
 
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-  var prevScrollpos = window.pageYOffset || document.documentElement.scrollTop;
-  window.addEventListener("scroll", function() {
-    var currentScrollPos = window.pageYOffset || document.documentElement.scrollTop;
-    if (currentScrollPos < 10) { // Adjust the threshold as needed
-      document.getElementById("header").style.top = "0";
-    } else if (prevScrollpos > currentScrollPos) {
-      document.getElementById("header").style.top = "0";
-    } else {
-      document.getElementById("header").style.top = "-15vh"; // Adjust as needed
-    }
-    prevScrollpos = currentScrollPos;
-  });
+	var prevScrollpos = window.pageYOffset;
+	window.onscroll = function header() {
+		var currentScrollPos = window.pageYOffset;
+  		if (prevScrollpos > currentScrollPos) {
+    			document.getElementById("header").style.top = "0";
+  		} else {
+    			document.getElementById("header").style.top = "-15vh";
+  		}
+  		prevScrollpos = currentScrollPos;
+	}
 }
 
 
