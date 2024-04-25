@@ -97,21 +97,20 @@ window.onload = function() {
 
 
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-  var lastScrollTop = 0;
-  var header = document.getElementById("header");
-
+  var prevScrollpos = window.pageYOffset || document.documentElement.scrollTop;
   window.addEventListener("scroll", function() {
-    var currentScroll = window.pageYOffset || document.documentElement.scrollTop;
-    if (currentScroll > lastScrollTop && currentScroll > header.clientHeight) {
-      // Scroll down and ensure header is not fully visible
-      header.style.top = "-" + header.clientHeight + "px";
+    var currentScrollPos = window.pageYOffset || document.documentElement.scrollTop;
+    if (currentScrollPos < 10) { // Adjust the threshold as needed
+      document.getElementById("header").style.top = "0";
+    } else if (prevScrollpos > currentScrollPos) {
+      document.getElementById("header").style.top = "0";
     } else {
-      // Scroll up or at the top of the page
-      header.style.top = "0";
+      document.getElementById("header").style.top = "-15vh"; // Adjust as needed
     }
-    lastScrollTop = currentScroll;
+    prevScrollpos = currentScrollPos;
   });
 }
+
 
 
 
