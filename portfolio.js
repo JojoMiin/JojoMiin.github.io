@@ -102,16 +102,17 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
 
   window.addEventListener("scroll", function() {
     var currentScroll = window.pageYOffset || document.documentElement.scrollTop;
-    if (currentScroll > lastScrollTop) {
-      // Scroll down
-      header.style.top = "-15vh"; // Adjust as needed
+    if (currentScroll > lastScrollTop && currentScroll > header.clientHeight) {
+      // Scroll down and ensure header is not fully visible
+      header.style.top = "-" + header.clientHeight + "px";
     } else {
-      // Scroll up
+      // Scroll up or at the top of the page
       header.style.top = "0";
     }
     lastScrollTop = currentScroll;
   });
 }
+
 
 
 
