@@ -48,6 +48,10 @@ body > div {
   box-sizing: border-box;
 }
 
+span.symbol {
+    color: lightcoral;
+}
+
 
 
 @font-face {
