@@ -549,6 +549,7 @@ s {
 }
 
 
+
 /* --------------------- */
 .sidenavTag::-webkit-scrollbar {
   display: none;
@@ -725,10 +726,35 @@ s {
 }
 
 
+.textSide {
+  box-sizing: border-box;
+}
 
+.inageSide {
+  box-sizing: border-box;
+}
 
+@media (min-width: 768px) {
+    .imageSide {
+        width: 66.66%;
+    }
+    .textSide {
+        width: 33.33%;
+        order: 2;
+    }
+}
 
+@media (max-width: 767px) {
+    .textSide {
+      width: 100%;
+      order: -1;
+    }
 
+    .inageSide {
+      width: 100%;
+      overflow-y: visible;
+    }
+}
 
 
 
