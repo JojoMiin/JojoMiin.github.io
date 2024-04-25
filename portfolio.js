@@ -117,11 +117,13 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     function openNavTag() {
       document.getElementById("mySidenavTag").style.width = "98%";
       document.getElementById("mySidenavTag").style.left = "1%";
+	document.body.style.overflow = "hidden";
     }
 
     function closeNavTag() {
       document.getElementById("mySidenavTag").style.width = "0";
       document.getElementById("mySidenavTag").style.left = "-50vw";
+	document.body.style.overflow = "";
     }
 
 
@@ -129,11 +131,13 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     function openNavAbout() {
       document.getElementById("mySidenavAbout").style.width = "98%";
       document.getElementById("mySidenavAbout").style.left = "1%";
+	document.body.style.overflow = "hidden";
     }
 
     function closeNavAbout() {
       document.getElementById("mySidenavAbout").style.width = "0";
       document.getElementById("mySidenavAbout").style.left = "-50vw";
+	document.body.style.overflow = "";
     }
 
 
@@ -160,11 +164,13 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     function openNav2() {
       document.getElementById("mySidenav2").style.width = "98%";
       document.getElementById("mySidenav2").style.right = "1%";
+	document.body.style.overflow = "hidden";
     }
 
     function closeNav2() {
       document.getElementById("mySidenav2").style.width = "0";
       document.getElementById("mySidenav2").style.right = "-50vw";
+	document.body.style.overflow = "";
     }
 
 
@@ -172,11 +178,13 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     function openNav3() {
       document.getElementById("mySidenav3").style.width = "98%";
       document.getElementById("mySidenav3").style.right = "1%";
+	document.body.style.overflow = "hidden";
     }
 
     function closeNav3() {
       document.getElementById("mySidenav3").style.width = "0";
       document.getElementById("mySidenav3").style.right = "-50vw";
+	document.body.style.overflow = "";
     }
 
 
@@ -184,11 +192,13 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     function openNav4() {
       document.getElementById("mySidenav4").style.width = "98%";
       document.getElementById("mySidenav4").style.right = "1%";
+	document.body.style.overflow = "hidden";
     }
 
     function closeNav4() {
       document.getElementById("mySidenav4").style.width = "0";
       document.getElementById("mySidenav4").style.right = "-50vw";
+	document.body.style.overflow = "";
     }
 
 
@@ -196,11 +206,13 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     function openNav5() {
       document.getElementById("mySidenav5").style.width = "98%";
       document.getElementById("mySidenav5").style.right = "1%";
+	document.body.style.overflow = "hidden";
     }
 
     function closeNav5() {
       document.getElementById("mySidenav5").style.width = "0";
       document.getElementById("mySidenav5").style.right = "-50vw";
+	document.body.style.overflow = "";
     }
 
 
@@ -208,11 +220,13 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     function openNav6() {
       document.getElementById("mySidenav6").style.width = "98%";
       document.getElementById("mySidenav6").style.right = "1%";
+	document.body.style.overflow = "hidden";
     }
 
     function closeNav6() {
       document.getElementById("mySidenav6").style.width = "0";
       document.getElementById("mySidenav6").style.right = "-50vw";
+	document.body.style.overflow = "";
     }
 
 
@@ -220,11 +234,13 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     function openNav7() {
       document.getElementById("mySidenav7").style.width = "98%";
       document.getElementById("mySidenav7").style.right = "1%";
+	document.body.style.overflow = "hidden";
     }
 
     function closeNav7() {
       document.getElementById("mySidenav7").style.width = "0";
       document.getElementById("mySidenav7").style.right = "-50vw";
+	document.body.style.overflow = "";
     }
 
 
@@ -232,11 +248,13 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     function openNav8() {
       document.getElementById("mySidenav8").style.width = "98%";
       document.getElementById("mySidenav8").style.right = "1%";
+	document.body.style.overflow = "hidden";
     }
 
     function closeNav8() {
       document.getElementById("mySidenav8").style.width = "0";
       document.getElementById("mySidenav8").style.right = "-50vw";
+	document.body.style.overflow = "";
     }
 
 
@@ -244,11 +262,13 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     function openNav9() {
       document.getElementById("mySidenav9").style.width = "98%";
       document.getElementById("mySidenav9").style.right = "1%";
+	document.body.style.overflow = "hidden";
     }
 
     function closeNav9() {
       document.getElementById("mySidenav9").style.width = "0";
       document.getElementById("mySidenav9").style.right = "-50vw";
+	document.body.style.overflow = "";
     }
 
 
@@ -256,11 +276,13 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     function openNav10() {
       document.getElementById("mySidenav10").style.width = "98%";
       document.getElementById("mySidenav10").style.right = "1%";
+	document.body.style.overflow = "hidden";
     }
 
     function closeNav10() {
       document.getElementById("mySidenav10").style.width = "0";
       document.getElementById("mySidenav10").style.right = "-50vw";
+	document.body.style.overflow = "";
     }
 
 
@@ -268,11 +290,13 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     function openNav11() {
       document.getElementById("mySidenav11").style.width = "98%";
       document.getElementById("mySidenav11").style.right = "1%";
+	document.body.style.overflow = "hidden";
     }
 
     function closeNav11() {
       document.getElementById("mySidenav11").style.width = "0";
       document.getElementById("mySidenav11").style.right = "-50vw";
+	document.body.style.overflow = "";
     }
 
 
@@ -280,11 +304,13 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     function openNav12() {
       document.getElementById("mySidenav12").style.width = "98%";
       document.getElementById("mySidenav12").style.right = "1%";
+	document.body.style.overflow = "hidden";
     }
 
     function closeNav12() {
       document.getElementById("mySidenav12").style.width = "0";
       document.getElementById("mySidenav12").style.right = "-50vw";
+	document.body.style.overflow = "";
     }
 
 
@@ -292,11 +318,13 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     function openNav13() {
       document.getElementById("mySidenav13").style.width = "98%";
       document.getElementById("mySidenav13").style.right = "1%";
+	document.body.style.overflow = "hidden";
     }
 
     function closeNav13() {
       document.getElementById("mySidenav13").style.width = "0";
       document.getElementById("mySidenav13").style.right = "-50vw";
+	document.body.style.overflow = "";
     }
 
 
@@ -304,11 +332,13 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     function openNav14() {
       document.getElementById("mySidenav14").style.width = "98%";
       document.getElementById("mySidenav14").style.right = "1%";
+	document.body.style.overflow = "hidden";
     }
 
     function closeNav14() {
       document.getElementById("mySidenav14").style.width = "0";
       document.getElementById("mySidenav14").style.right = "-50vw";
+	document.body.style.overflow = "";
     }
 
 
@@ -316,11 +346,13 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     function openNav15() {
       document.getElementById("mySidenav15").style.width = "98%";
       document.getElementById("mySidenav15").style.right = "1%";
+	document.body.style.overflow = "hidden";
     }
 
     function closeNav15() {
       document.getElementById("mySidenav15").style.width = "0";
       document.getElementById("mySidenav15").style.right = "-50vw";
+	document.body.style.overflow = "";
     }
 
 
@@ -328,11 +360,13 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     function openNav16() {
       document.getElementById("mySidenav16").style.width = "98%";
       document.getElementById("mySidenav16").style.right = "1%";
+	document.body.style.overflow = "hidden";
     }
 
     function closeNav16() {
       document.getElementById("mySidenav16").style.width = "0";
       document.getElementById("mySidenav16").style.right = "-50vw";
+	document.body.style.overflow = "";
     }
 
 
@@ -340,11 +374,13 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     function openNav17() {
       document.getElementById("mySidenav17").style.width = "98%";
       document.getElementById("mySidenav17").style.right = "1%";
+	document.body.style.overflow = "hidden";
     }
 
     function closeNav17() {
       document.getElementById("mySidenav17").style.width = "0";
       document.getElementById("mySidenav17").style.right = "-50vw";
+	document.body.style.overflow = "";
     }
 
 
@@ -352,11 +388,13 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     function openNav18() {
       document.getElementById("mySidenav18").style.width = "98%";
       document.getElementById("mySidenav18").style.right = "1%";
+	document.body.style.overflow = "hidden";
     }
 
     function closeNav18() {
       document.getElementById("mySidenav18").style.width = "0";
       document.getElementById("mySidenav18").style.right = "-50vw";
+	document.body.style.overflow = "";
     }
 
 
@@ -364,11 +402,13 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     function openNav19() {
       document.getElementById("mySidenav19").style.width = "98%";
       document.getElementById("mySidenav19").style.right = "1%";
+	document.body.style.overflow = "hidden";
     }
 
     function closeNav19() {
       document.getElementById("mySidenav19").style.width = "0";
       document.getElementById("mySidenav19").style.right = "-50vw";
+	document.body.style.overflow = "";
     }
 
 
@@ -376,11 +416,13 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     function openNav20() {
       document.getElementById("mySidenav20").style.width = "98%";
       document.getElementById("mySidenav20").style.right = "1%";
+	document.body.style.overflow = "hidden";
     }
 
     function closeNav20() {
       document.getElementById("mySidenav20").style.width = "0";
       document.getElementById("mySidenav20").style.right = "-50vw";
+	document.body.style.overflow = "";
     }
 
 
@@ -388,11 +430,13 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     function openNav21() {
       document.getElementById("mySidenav21").style.width = "98%";
       document.getElementById("mySidenav21").style.right = "1%";
+	document.body.style.overflow = "hidden";
     }
 
     function closeNav21() {
       document.getElementById("mySidenav21").style.width = "0";
       document.getElementById("mySidenav21").style.right = "-50vw";
+	document.body.style.overflow = "";
     }
 
 
@@ -400,11 +444,13 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     function openNav22() {
       document.getElementById("mySidenav22").style.width = "98%";
       document.getElementById("mySidenav22").style.right = "1%";
+	document.body.style.overflow = "hidden";
     }
 
     function closeNav22() {
       document.getElementById("mySidenav22").style.width = "0";
       document.getElementById("mySidenav22").style.right = "-50vw";
+	document.body.style.overflow = "";
     }
 
 
@@ -412,11 +458,13 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     function openNav23() {
       document.getElementById("mySidenav23").style.width = "98%";
       document.getElementById("mySidenav23").style.right = "1%";
+	document.body.style.overflow = "hidden";
     }
 
     function closeNav23() {
       document.getElementById("mySidenav23").style.width = "0";
       document.getElementById("mySidenav23").style.right = "-50vw";
+	document.body.style.overflow = "";
     }
 
 
@@ -424,11 +472,13 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     function openNav24() {
       document.getElementById("mySidenav24").style.width = "98%";
       document.getElementById("mySidenav24").style.right = "1%";
+	document.body.style.overflow = "hidden";
     }
 
     function closeNav24() {
       document.getElementById("mySidenav24").style.width = "0";
       document.getElementById("mySidenav24").style.right = "-50vw";
+	document.body.style.overflow = "";
     }
 
 
@@ -436,11 +486,13 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     function openNav25() {
       document.getElementById("mySidenav25").style.width = "98%";
       document.getElementById("mySidenav25").style.right = "1%";
+	document.body.style.overflow = "hidden";
     }
 
     function closeNav25() {
       document.getElementById("mySidenav25").style.width = "0";
       document.getElementById("mySidenav25").style.right = "-50vw";
+	document.body.style.overflow = "";
     }
 
 
@@ -448,11 +500,13 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     function openNav26() {
       document.getElementById("mySidenav26").style.width = "98%";
       document.getElementById("mySidenav26").style.right = "1%";
+	document.body.style.overflow = "hidden";
     }
 
     function closeNav26() {
       document.getElementById("mySidenav26").style.width = "0";
       document.getElementById("mySidenav26").style.right = "-50vw";
+	document.body.style.overflow = "";
     }
 
 
@@ -460,11 +514,13 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     function openNav27() {
       document.getElementById("mySidenav27").style.width = "98%";
       document.getElementById("mySidenav27").style.right = "1%";
+	document.body.style.overflow = "hidden";
     }
 
     function closeNav27() {
       document.getElementById("mySidenav27").style.width = "0";
       document.getElementById("mySidenav27").style.right = "-50vw";
+	document.body.style.overflow = "";
     }
 
 
@@ -472,12 +528,17 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     function openNav28() {
       document.getElementById("mySidenav28").style.width = "98%";
       document.getElementById("mySidenav28").style.right = "1%";
+	document.body.style.overflow = "hidden";
     }
 
     function closeNav28() {
       document.getElementById("mySidenav28").style.width = "0";
       document.getElementById("mySidenav28").style.right = "-50vw";
+	document.body.style.overflow = "";
     }
+
+
+
 
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
   var gridItems = document.querySelectorAll('.grid-item');
