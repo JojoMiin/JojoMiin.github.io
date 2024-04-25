@@ -730,7 +730,7 @@ s {
   box-sizing: border-box;
 }
 
-.inageSide {
+.imageSide {
   box-sizing: border-box;
 }
 
@@ -749,8 +749,7 @@ s {
       width: 100%;
       order: -1;
     }
-
-    .inageSide {
+    .imageSide {
       width: 100%;
       overflow-y: visible;
     }
