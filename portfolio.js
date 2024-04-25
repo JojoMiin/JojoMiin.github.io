@@ -120,11 +120,6 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     		var menuBar = menuBarElements[0];
    		menuBar.style.width = "98%";
     		menuBar.style.left = "1%";
-    		menuBar.style.height = "98%";
-    		menuBar.style.top = "1%";
-    		menuBar.style.background = "pink";
-    		menuBar.style.border = "5px solid whitesmoke";
-    		menuBar.style.margin = "auto";
     		menuBar.style.visibility = "visible";
     		document.body.style.overflow = "hidden";
   	}
@@ -136,7 +131,7 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     		var menuBar = menuBarElements[0];
    		menuBar.style.width = "0";
     		menuBar.style.left = "-50%";
-    		menuBar.style.height = "98%";
+		menuBar.style.visibility = "invisible";
 		document.body.style.overflow = "";
   	}
     }
