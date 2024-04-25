@@ -3276,6 +3276,10 @@ s {
   }
 
   .menubar {
+    left: -50vw;
+    transition: 0.75s;
+    border-radius: 10vw;
+    box-shadow: inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw whitesmoke;
     visibility: hidden;
   }
 
