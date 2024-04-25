@@ -115,8 +115,16 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
 
 
     function openNavTag() {
-      document.getElementById("mySidenavTag").style.width = "98%";
-      document.getElementById("mySidenavTag").style.left = "1%";
+      document.getElementById("menubar").style.width = "98%";
+      document.getElementById("menubar").style.left = "1%";
+	document.getElementById("menubar").style.height = "98%";
+	document.getElementById("menubar").style.top = "1%";
+	document.getElementById("menubar").style.background = "whitesmoke";
+	document.getElementById("menubar").style.border-radius = "10vw";
+	document.getElementById("menubar").style.border = "5px solid lightpink";
+	document.getElementById("menubar").style.margin = "auto";
+	document.getElementById("menubar").style.box-shadow = "inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw lightpink";
+	document.getElementById("menubar").style.visibility = "visible";
 	document.body.style.overflow = "hidden";
     }
 
