@@ -94,18 +94,26 @@ window.onload = function() {
 }
 
 
+
+
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function header() {
-var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("header").style.top = "0";
-  } else {
-    document.getElementById("header").style.top = "-15vh";
-  }
-  prevScrollpos = currentScrollPos;
+  var lastScrollTop = 0;
+  var header = document.getElementById("header");
+
+  window.addEventListener("scroll", function() {
+    var currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+    if (currentScroll > lastScrollTop) {
+      // Scroll down
+      header.style.top = "-15vh"; // Adjust as needed
+    } else {
+      // Scroll up
+      header.style.top = "0";
+    }
+    lastScrollTop = currentScroll;
+  });
 }
-}
+
+
 
 
     function openNavTag() {
