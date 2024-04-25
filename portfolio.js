@@ -115,16 +115,21 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
 
 
     function openNavTag() {
-      document.getElementsByClassName("menubar").style.width = "98%";
-      document.getElementsByClassName("menubar").style.left = "1%";
-	document.getElementsByClassName("menubar").style.height = "98%";
-	document.getElementsByClassName("menubar").style.top = "1%";
-	document.getElementsByClassName("menubar").style.background = "whitesmoke";
-	document.getElementsByClassName("menubar").style.border = "5px solid lightpink";
-	document.getElementsByClassName("menubar").style.margin = "auto";
-	document.getElementsByClassName("menubar").style.visibility = "visible";
-	document.body.style.overflow = "hidden";
+  	var menuBarElements = document.getElementsByClassName("menubar");
+  	if (menuBarElements.length > 0) {
+    		var menuBar = menuBarElements[0];
+   		menuBar.style.width = "98%";
+    		menuBar.style.left = "1%";
+    		menuBar.style.height = "98%";
+    		menuBar.style.top = "1%";
+    		menuBar.style.background = "whitesmoke";
+    		menuBar.style.border = "5px solid lightpink";
+    		menuBar.style.margin = "auto";
+    		menuBar.style.visibility = "visible";
+    		document.body.style.overflow = "hidden";
+  	}
     }
+
 
     function closeNavTag() {
       document.getElementById("mySidenavTag").style.width = "0";
