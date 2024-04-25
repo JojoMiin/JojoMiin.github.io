@@ -131,7 +131,7 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     		var menuBar = menuBarElements[0];
    		menuBar.style.width = "0";
     		menuBar.style.left = "-180%";
-		menuBar.style.visibility = "invisible";
+		menuBar.style.visibility = "hidden";
 		document.body.style.overflow = "";
   	}
     }
