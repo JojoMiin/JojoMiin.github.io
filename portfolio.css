@@ -225,6 +225,7 @@ s {
 
 .menubar {
   position: fixed;
+  background: none;
   height: 100%;
   width: 26%;
   z-index: 1;
@@ -3275,6 +3276,14 @@ s {
   }
 
   .menubar {
+    visibility: hidden;
+  }
+
+  .menubar .menubar-item {
+    visibility: hidden;
+  }
+
+  .menubar .about {
     visibility: hidden;
   }
 
