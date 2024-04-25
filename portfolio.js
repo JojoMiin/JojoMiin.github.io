@@ -130,7 +130,7 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
   	if (menuBarElements.length > 0) {
     		var menuBar = menuBarElements[0];
    		menuBar.style.width = "0";
-    		menuBar.style.left = "-50%";
+    		menuBar.style.left = "-180%";
 		menuBar.style.visibility = "invisible";
 		document.body.style.overflow = "";
   	}
