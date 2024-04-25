@@ -231,6 +231,12 @@ s {
   z-index: 1;
   top: 0;
   right: 0;
+  border: 0;
+  margin: auto;
+  transition: 0.75s;
+  border-radius: 0;
+  box-shadow: none;
+  visibility: visible;
 }
 
 .menubar .menubar-item {
@@ -3276,6 +3282,11 @@ s {
   }
 
   .menubar {
+    height: 98%;
+    top: 1%;
+    background: pink;
+    border: 5px solid whitesmoke;
+    margin: auto;
     left: -50vw;
     transition: 0.75s;
     border-radius: 10vw;
