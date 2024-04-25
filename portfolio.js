@@ -146,11 +146,13 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     function openNav1() {
       document.getElementById("mySidenav1").style.width = "98%";
       document.getElementById("mySidenav1").style.right = "1%";
+	document.body.style.overflow = "hidden";
     }
 
     function closeNav1() {
       document.getElementById("mySidenav1").style.width = "0";
       document.getElementById("mySidenav1").style.right = "-50vw";
+	document.body.style.overflow = "";
     }
 
 
