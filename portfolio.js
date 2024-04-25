@@ -115,14 +115,14 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
 
 
     function openNavTag() {
-      document.getElementByClassName("menubar").style.width = "98%";
-      document.getElementByClassName("menubar").style.left = "1%";
-	document.getElementByClassName("menubar").style.height = "98%";
-	document.getElementByClassName("menubar").style.top = "1%";
-	document.getElementByClassName("menubar").style.background = "whitesmoke";
-	document.getElementByClassName("menubar").style.border = "5px solid lightpink";
-	document.getElementByClassName("menubar").style.margin = "auto";
-	document.getElementByClassName("menubar").style.visibility = "visible";
+      document.getElementsByClassName("menubar").style.width = "98%";
+      document.getElementsByClassName("menubar").style.left = "1%";
+	document.getElementsByClassName("menubar").style.height = "98%";
+	document.getElementsByClassName("menubar").style.top = "1%";
+	document.getElementsByClassName("menubar").style.background = "whitesmoke";
+	document.getElementsByClassName("menubar").style.border = "5px solid lightpink";
+	document.getElementsByClassName("menubar").style.margin = "auto";
+	document.getElementsByClassName("menubar").style.visibility = "visible";
 	document.body.style.overflow = "hidden";
     }
 
