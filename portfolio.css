@@ -748,40 +748,31 @@ s {
 }
 
 .sidenav1 {
-    height: 100%; /* Adjusted height to cover the full height */
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    right: -100%; /* Adjusted right value for better off-screen hiding */
-    background-color: whitesmoke;
+    height: 100%;
+    width: 100%;
+    position: relative;
     overflow-x: hidden;
-    transition: 0.75s;
-    border-radius: 10vw;
-    border: 5px solid lightpink;
-    box-shadow: inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw lightpink;
-    margin: auto;
 }
 
 .fixed-container {
     position: fixed;
     width: 33.33%; /* 1/3 of the screen */
-    left: 0; /* Aligning to the left */
-    top: 0; /* Aligning to the top */
-    height: 100%; /* Full height */
-    padding-left: 5%;
-    padding-right: 5%; /* Added right padding for better spacing */
+    left: 0;
+    top: 0;
+    height: 100%;
+    padding: 8vh 5%;
+    box-sizing: border-box; /* Ensure padding is included in the width */
     overflow-y: auto; /* Added to enable vertical scrolling if needed */
 }
 
 .scrollable-container {
     position: absolute;
     width: 66.66%; /* 2/3 of the screen */
-    right: 0; /* Aligning to the right */
-    top: 0; /* Aligning to the top */
-    height: 100%; /* Full height */
-    padding-left: 5%; /* Adjusted left padding */
-    padding-right: 5%; /* Adjusted right padding */
+    right: 0;
+    top: 0;
+    height: 100%;
+    padding: 8vh 5%;
+    box-sizing: border-box; /* Ensure padding is included in the width */
     overflow-y: auto; /* Added to enable vertical scrolling if needed */
 }
 
@@ -790,17 +781,17 @@ s {
     font-weight: normal;
     font-style: normal;
     font-size: calc(2px + 4vw);
-    text-align: left; /* Aligning the text to the left */
+    text-align: left;
     line-height: 105%;
-    padding-bottom: 2%;
+    margin-bottom: 2vh; /* Added spacing between title and info */
 }
 
 .sidenav1 .info {
     font-family: 'Montserrat-LightItalic';
     font-weight: normal;
     font-size: 1.5vh;
-    margin-bottom: 1vh;
-    text-align: left; /* Aligning the text to the left */
+    margin-bottom: 2vh; /* Added spacing between info and content */
+    text-align: left;
 }
 
 .sidenav1 h1 {
@@ -816,18 +807,11 @@ s {
 }
 
 .sidenav1 img {
-    width: 100%; /* Filling the container width */
+    width: 100%;
     height: auto;
     border: 1px solid black;
     border-radius: 2vw;
-    margin-bottom: 10px; /* Adding space between images */
-}
-
-.center1 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90vw;
+    margin-bottom: 10px;
 }
 
 .sidenav1 .closebtn1 {
@@ -843,9 +827,7 @@ s {
 
 @media screen and (max-width: 768px) {
     .fixed-container, .scrollable-container {
-        width: 100%; /* Full width on smaller screens */
-        padding-left: 5%;
-        padding-right: 5%;
+        width: 100%;
     }
 }
 
