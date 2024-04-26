@@ -749,31 +749,31 @@ s {
 
 .sidenav1 {
     height: 100%;
-    width: 100%;
-    position: relative;
-    overflow-x: hidden;
-}
-
-.fixed-container {
+    width: 0;
     position: fixed;
-    width: 33.33%; /* 1/3 of the screen */
-    left: 0;
+    z-index: 1;
     top: 0;
-    height: 100%;
-    padding: 8vh 5%;
-    box-sizing: border-box; /* Ensure padding is included in the width */
-    overflow-y: auto; /* Added to enable vertical scrolling if needed */
+    right: 0;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+    transition: 0.75s;
+    border-radius: 10vw;
+    border: 5px solid lightpink;
+    box-shadow: inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw lightpink;
 }
 
-.scrollable-container {
-    position: absolute;
-    width: 66.66%; /* 2/3 of the screen */
-    left: 33.33%; /* Start after the fixed container */
-    top: 0;
-    height: 100%;
+.text-container {
+    width: 50%;
+    float: right;
     padding: 8vh 5%;
-    box-sizing: border-box; /* Ensure padding is included in the width */
-    overflow-y: auto; /* Added to enable vertical scrolling if needed */
+    box-sizing: border-box;
+}
+
+.image-container {
+    width: 50%;
+    float: left;
+    padding: 8vh 5%;
+    box-sizing: border-box;
 }
 
 .sidenav1 .title {
@@ -781,17 +781,17 @@ s {
     font-weight: normal;
     font-style: normal;
     font-size: calc(2px + 4vw);
-    text-align: left;
+    text-align: right;
     line-height: 105%;
-    margin-bottom: 2vh; /* Added spacing between title and info */
+    padding-bottom: 2%;
 }
 
 .sidenav1 .info {
     font-family: 'Montserrat-LightItalic';
     font-weight: normal;
     font-size: 1.5vh;
-    margin-bottom: 2vh; /* Added spacing between info and content */
-    text-align: left;
+    margin-bottom: 1vh;
+    text-align: right;
 }
 
 .sidenav1 h1 {
@@ -826,12 +826,13 @@ s {
 }
 
 @media screen and (max-width: 768px) {
-    .fixed-container, .scrollable-container {
+    .text-container, .image-container {
         width: 100%;
-        position: relative;
-        left: 0;
+        float: none;
     }
 }
+
+
 
 /* --------------------- */
 .sidenav2::-webkit-scrollbar {
