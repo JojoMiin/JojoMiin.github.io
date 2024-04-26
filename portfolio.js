@@ -113,7 +113,7 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
 
 
 
-
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
     function openNavTag() {
   	var menuBarElements = document.getElementsByClassName("menubar");
   	if (menuBarElements.length > 0) {
@@ -124,16 +124,20 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     		document.body.style.overflow = "hidden";
   	}
     }
+}
 
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
     function closeNavTag() {
   	var menuBarElements = document.getElementsByClassName("menubar");
   	if (menuBarElements.length > 0) {
     		var menuBar = menuBarElements[0];
    		menuBar.style.width = "0";
     		menuBar.style.left = "-200%";
+		menuBar.style.visibility = "hidden";
 		document.body.style.overflow = "";
   	}
     }
+}
 
 
 
