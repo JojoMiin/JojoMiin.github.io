@@ -768,7 +768,7 @@ s {
 .scrollable-container {
     position: absolute;
     width: 66.66%; /* 2/3 of the screen */
-    right: 0;
+    left: 33.33%; /* Start after the fixed container */
     top: 0;
     height: 100%;
     padding: 8vh 5%;
@@ -828,9 +828,10 @@ s {
 @media screen and (max-width: 768px) {
     .fixed-container, .scrollable-container {
         width: 100%;
+        position: relative;
+        left: 0;
     }
 }
-
 
 /* --------------------- */
 .sidenav2::-webkit-scrollbar {
