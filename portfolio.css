@@ -762,6 +762,21 @@ s {
   margin: auto;
 }
 
+.fixed-container {
+    position: fixed;
+    width: 45%;
+    padding-left: 5%;
+    padding-top: 8vh;
+}
+
+.scrollable-container {
+    position: relative;
+    width: 90%; /* Adjust width as needed */
+    margin: auto; /* Centering the content horizontally */
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+}
+
 .sidenav1 .title {
   font-family: 'Montserrat-SemiBold';
   font-weight: normal;
