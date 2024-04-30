@@ -753,7 +753,7 @@ s {
     position: fixed;
     z-index: 1;
     top: 0;
-    right: 0;
+    right: -50vw;
     background-color: whitesmoke;
     overflow-x: hidden;
     transition: 0.75s;
