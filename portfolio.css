@@ -637,7 +637,7 @@ s {
 }
 
 .sidenavAbout .closebtnAbout {
-  position: fixed;
+  position: sticky;
   font-family: 'Montserrat-SemiBold';
   font-weight: normal;
   font-style: normal;
@@ -647,7 +647,7 @@ s {
   border-radius: 1vw;
   margin-left: calc(50% - (20px + 1.5vw + 1.5vw));
   bottom: 3vh;
-  background: pink;
+  background: whitesmoke;
   padding: 0px .75vw .75vw .75vw;
   z-index: 3;
 }
