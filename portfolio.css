@@ -786,6 +786,7 @@ s {
     text-align: right;
     line-height: 105%;
     padding-bottom: 3vh;
+    position: relative;
 }
 
 .sidenav1 .info {
@@ -794,6 +795,7 @@ s {
     font-size: 1.5vh;
     margin-bottom: 3vh;
     text-align: right;
+    position: relative;
 }
 
 .sidenav1 h1 {
@@ -3218,11 +3220,8 @@ s {
 
 /* --------------------- */
 .box {
-  position: absolute;
+  position: relative;
   display: inline-block;
-  padding-top: 2%;
-  padding-left: 1%;
-  padding-right: 10%;
   font-family: 'Montserrat-SemiBold';
   font-weight: normal;
   color: black;
