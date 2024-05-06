@@ -826,7 +826,7 @@ s {
     font-size: calc(20px + 1.5vw);
     text-align: center;
     border-radius: 1vw;
-    margin-left: calc(50vw - (20px + 1.5vw + 1.5vw));
+    margin-left: calc(50% - (20px + 1.5vw + 1.5vw));
     bottom: 3vh;
     background: pink;
     padding: 0px .75vw .75vw .75vw;
