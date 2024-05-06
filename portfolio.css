@@ -834,7 +834,14 @@ s {
 }
 
 @media screen and (max-width: 768px) {
-    .text-container, .image-container {
+    .text-container{
+        width: 100%;
+        float: none;
+        margin-left: 0;
+        position: relative;
+    }
+  
+    .image-container {
         width: 100%;
         float: none;
     }
