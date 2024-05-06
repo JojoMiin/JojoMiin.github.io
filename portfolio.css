@@ -587,7 +587,7 @@ s {
     margin-left: 55vw;
     padding: 5vw 5vw 0vw 5vw;
     box-sizing: border-box;
-    position: fixed;
+    position: relative;
 }
 
 .sidenavAbout .title {
