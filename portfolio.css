@@ -3239,11 +3239,11 @@ s {
 }
 
 .box p {
-  font-family: 'Montserrat-SemiBold';
+  font-family: 'Montserrat-Medium';
   font-weight: normal;
   font-style: normal;
   color: black;
-  font-size: calc(7px + 0.7vw);
+  font-size: calc(12px + 0.2vw);
 }
 
 .pill {
