@@ -816,13 +816,12 @@ s {
 }
 
 .sidenav1 .closebtn1 {
-    position: inherit;
+    position: fixed;
     font-family: 'Montserrat-SemiBold';
     font-weight: normal;
     font-style: normal;
     color: black;
     font-size: calc(20px + 1.5vw);
-    right: 0;
     text-align: center;
     border-radius: 1vw;
     margin-left: calc(50vw - (20px + 1.5vw + 1.5vw));
