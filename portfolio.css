@@ -557,92 +557,7 @@ s {
 }
 
 
-/* --------------------- */
-.sidenavTag::-webkit-scrollbar {
-  display: none;
-}
 
-.sidenavTag {
-  height: 98%;
-  width: 0;
-  position: fixed;
-  z-index: 2;
-  top: 1%;
-  left: -50vw;
-  background: pink;
-  overflow-x: hidden;
-  transition: 0.75s;
-  border-radius: 10vw;
-  border: 5px solid whitesmoke;
-  box-shadow:inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw whitesmoke;
-  margin: auto;
-}
-
-.sidenavTag .title {
-  font-family: 'Montserrat-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  font-size: calc(2px + 4vw);
-  text-align: right;
-  line-height: 105%;
-  padding-bottom: 2%;
-}
-
-.sidenavTag .info {
-  font-family: 'Montserrat-LightItalic';
-  font-weight: normal;
-  font-size: 1.5vh;
-  margin-bottom: 1vh;
-  text-align: right;
-}
-
-.sidenavTag h1 {
-  text-decoration: none;
-  color: black;
-  display: block;
-}
-
-.sidenavTag a {
-  font-size: 1.5vh;
-  font-family: 'Montserrat-LightItalic';
-  font-style: italic;
-}
-
-.sidenavTag img {
-  position: inherit;
-  width: 43vw;
-  height: auto;
-  border: 1px solid black;
-  border-radius: 2vw;
-}
-
-.centerTag {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90vw;
-}
-
-.sidenavTag .closebtnTag {
-  position: absolute;
-  font-family: 'Montserrat-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  color: black;
-  font-size: calc(2px + 4vw);
-  right: 0;
-  text-align: right;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenavTag {
-    padding-top: 15px;
-  }
-
-  .sidenavTag a {
-    font-size: 18px;
-  }
-}
 
 /* --------------------- */
 .sidenavAbout::-webkit-scrollbar {
@@ -650,11 +565,11 @@ s {
 }
 
 .sidenavAbout {
-  height: 98%;
+  height: 100%;
   width: 0;
   position: fixed;
   z-index: 2;
-  top: 1%;
+  top: 0;
   left: -50vw;
   background-color: pink;
   overflow-x: hidden;
@@ -670,18 +585,20 @@ s {
   font-family: 'Montserrat-SemiBold';
   font-weight: normal;
   font-style: normal;
-  font-size: calc(2px + 4vw);
+  font-size: calc(30px + 2vw);
   text-align: right;
   line-height: 105%;
-  padding-bottom: 2%;
+  padding-bottom: 3vh;
+  position: relative;
 }
 
 .sidenavAbout .info {
   font-family: 'Montserrat-LightItalic';
   font-weight: normal;
   font-size: 1.5vh;
-  margin-bottom: 1vh;
+  margin-bottom: 3vh;
   text-align: right;
+  position: relative;
 }
 
 .sidenavAbout h1 {
@@ -697,11 +614,10 @@ s {
 }
 
 .sidenavAbout img {
-  position: inherit;
-  width: 43vw;
+  width: 100%;
   height: auto;
-  border: 1px solid black;
   border-radius: 2vw;
+  margin-bottom: 10px;
 }
 
 .centerAbout {
@@ -712,17 +628,22 @@ s {
 }
 
 .sidenavAbout .closebtnAbout {
-  position: absolute;
+  position: fixed;
   font-family: 'Montserrat-SemiBold';
   font-weight: normal;
   font-style: normal;
   color: black;
-  font-size: calc(2px + 4vw);
-  right: 0;
-  text-align: right;
+  font-size: calc(20px + 1.5vw);
+  text-align: center;
+  border-radius: 1vw;
+  margin-left: calc(50% - (20px + 1.5vw + 1.5vw));
+  bottom: 3vh;
+  background: pink;
+  padding: 0px .75vw .75vw .75vw;
+  z-index: 3;
 }
 
-@media screen and (max-height: 450px) {
+/* @media screen and (max-height: 450px) {
   .sidenavAbout {
     padding-top: 15px;
   }
@@ -730,7 +651,7 @@ s {
   .sidenavAbout a {
     font-size: 18px;
   }
-}
+} */
 
 
 
