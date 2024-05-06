@@ -763,16 +763,18 @@ s {
 }
 
 .text-container {
-    width: 50%;
+    width: 42vw;
     float: right;
-    padding: 8vh 5% 23vh 5%;
+    margin-left: 55vw;
+    padding: 5vw 5vw 0vw 5vw;
     box-sizing: border-box;
+    position: fixed;
 }
 
 .image-container {
-    width: 50%;
+    width: 60vw;
     float: left;
-    padding: 8vh 5%;
+    padding: 5vw;
     box-sizing: border-box;
 }
 
@@ -780,17 +782,17 @@ s {
     font-family: 'Montserrat-SemiBold';
     font-weight: normal;
     font-style: normal;
-    font-size: calc(2px + 4vw);
+    font-size: calc(30px + 2vw);
     text-align: right;
     line-height: 105%;
-    padding-bottom: 2%;
+    padding-bottom: 3vh;
 }
 
 .sidenav1 .info {
     font-family: 'Montserrat-LightItalic';
     font-weight: normal;
     font-size: 1.5vh;
-    margin-bottom: 1vh;
+    margin-bottom: 3vh;
     text-align: right;
 }
 
@@ -809,21 +811,25 @@ s {
 .sidenav1 img {
     width: 100%;
     height: auto;
-    border: 1px solid black;
     border-radius: 2vw;
     margin-bottom: 10px;
 }
 
 .sidenav1 .closebtn1 {
-    position: absolute;
+    position: inherit;
     font-family: 'Montserrat-SemiBold';
     font-weight: normal;
     font-style: normal;
     color: black;
-    paddinf-right: 10%;
-    font-size: calc(2px + 4vw);
+    font-size: calc(20px + 1.5vw);
     right: 0;
-    text-align: right;
+    text-align: center;
+    border-radius: 1vw;
+    margin-left: calc(50vw - (20px + 1.5vw + 1.5vw));
+    bottom: 3vh;
+    background: pink;
+    padding: 0px .75vw .75vw .75vw;
+    z-index: 3;
 }
 
 @media screen and (max-width: 768px) {
