@@ -581,6 +581,15 @@ s {
   margin: auto;
 }
 
+.text-container {
+    width: 42vw;
+    float: right;
+    margin-left: 55vw;
+    padding: 5vw 5vw 0vw 5vw;
+    box-sizing: border-box;
+    position: fixed;
+}
+
 .sidenavAbout .title {
   font-family: 'Montserrat-SemiBold';
   font-weight: normal;
