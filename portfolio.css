@@ -582,9 +582,6 @@ s {
 }
 
 .about-container {
-    width: 42vw;
-    float: right;
-    margin-left: 55vw;
     padding: 5vw 5vw 0vw 5vw;
     box-sizing: border-box;
     position: relative;
