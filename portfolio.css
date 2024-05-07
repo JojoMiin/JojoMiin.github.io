@@ -3240,6 +3240,9 @@ s {
   }
 
   .menubar .menubar-item {
+    background: none;
+    box-shadow: none;
+    margin: none;
   }
 
   .menubar .about {
