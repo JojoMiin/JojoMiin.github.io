@@ -376,7 +376,7 @@ s {
   border-radius: 5vh;
   font-family: 'Necto-Mono';
   font-weight: normal;
-  font-size: calc( 4.2vh - 1vw );
+  font-size: calc(12px + .4vw);
   background: whitesmoke;
   font-style: italic;
 }
@@ -3247,6 +3247,7 @@ s {
 
   .pill_menu {
     padding: 5px 15px 10px 15px;
+    font-size: calc(4.2vh - 1vw);
   }
 
   .menubar .about {
