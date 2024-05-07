@@ -373,7 +373,7 @@ s {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  border-radius: 18px;
+  border-radius: 5vh;
   font-family: 'Necto-Mono';
   font-weight: normal;
   font-size: calc( 4.2vh - 1vw );
@@ -3243,6 +3243,10 @@ s {
     background: none;
     box-shadow: none;
     margin: none;
+  }
+
+  .pill_menu {
+    padding: 5px 15px 10px 15px;
   }
 
   .menubar .about {
