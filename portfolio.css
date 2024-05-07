@@ -3242,7 +3242,7 @@ s {
   .menubar .menubar-item {
     background: none;
     box-shadow: none;
-    margin: none;
+    margin: 0;
   }
 
   .pill_menu {
