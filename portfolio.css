@@ -246,6 +246,7 @@ s {
   margin: 15px;
   position: relative;
   padding: 15px;
+  overflow: hidden;
   border-radius: 2vh;
 }
 
