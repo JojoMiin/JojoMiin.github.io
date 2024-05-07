@@ -120,7 +120,7 @@ function openNavTag() {
   		if (menuBarElements.length > 0) {
     			var menuBar = menuBarElements[0];
    			menuBar.style.width = "98%";
-    			menuBar.style.left = "0%";
+    			menuBar.style.left = "0vw";
     			menuBar.style.visibility = "visible";
     			document.body.style.overflow = "hidden";
   		}
