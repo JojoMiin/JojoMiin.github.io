@@ -120,7 +120,7 @@ function openNavTag() {
   		if (menuBarElements.length > 0) {
     			var menuBar = menuBarElements[0];
    			menuBar.style.width = "98%";
-    			menuBar.style.left = "1%";
+    			menuBar.style.left = "0%";
     			menuBar.style.visibility = "visible";
     			document.body.style.overflow = "hidden";
   		}
@@ -133,7 +133,7 @@ function closeNavTag() {
         	if (menuBarElements.length > 0) {
             		var menuBar = menuBarElements[0];
             		menuBar.style.width = "0";
-            		menuBar.style.left = "-200%";
+            		menuBar.style.left = "-300vw";
             		menuBar.style.visibility = "hidden";
             		document.body.style.overflow = "";
         	}
