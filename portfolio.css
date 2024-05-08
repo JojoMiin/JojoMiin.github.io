@@ -261,10 +261,10 @@ s {
 
 .menubar .about {
   position: relative;
-  box-shadow: 7px 7px 8px #626262, -7px -7px 8px #ffffff;
+  box-shadow: 7px 7px 8px #626262, -7px -7px 8px white;
   border-radius: 2vh;
   height: auto;
-  padding: 30px;
+  padding: 25px;
   margin: 15px;
   z-index: 1;
 }
