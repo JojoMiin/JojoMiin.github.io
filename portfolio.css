@@ -239,6 +239,7 @@ s {
   box-shadow: none;
   visibility: visible;
   overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .menubar .menubar-item {
@@ -268,7 +269,9 @@ s {
   margin-bottom: 0.3em;
   line-height: 105%;
   padding-bottom: 1vh;
-  text-align: left;
+  text-align: right;
+  text-decoration: underline;
+  text-underline-position: from-font;
 }
 
 .menubar .about .info {
@@ -603,6 +606,8 @@ s {
   line-height: 105%;
   padding-bottom: 3vh;
   position: relative;
+  text-decoration: underline;
+  text-underline-position: from-font;
 }
 
 .sidenavAbout .info {
@@ -719,7 +724,7 @@ s {
     font-size: calc(30px + 2vw);
     text-align: right;
     line-height: 105%;
-    padding-bottom: 3vh;
+    padding-bottom: 2vh;
     position: relative;
 }
 
