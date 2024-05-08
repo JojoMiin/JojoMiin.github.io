@@ -52,7 +52,9 @@ span.symbol {
     color: lightcoral;
 }
 
-
+ul.point {
+  list-style-type: square;
+}
 
 
 @font-face {
