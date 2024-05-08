@@ -113,6 +113,10 @@ s {
   text-decoration-color: lightpink;
 }
 
+u {
+  background: whitesmoke;
+}
+
 
 .gameover {
   height: 100%;
