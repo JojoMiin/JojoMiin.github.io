@@ -228,7 +228,7 @@ s {
   border-style: solid;
   border-width: 1px;
   border-radius: 2vh;
-  padding: 15px;
+  padding: 13px 15px 15px 16px;
 }
 
 .menubar {
