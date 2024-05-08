@@ -3174,7 +3174,7 @@ s {
 }
 
 .box p {
-  font-family: 'Montserrat-Medium';
+  font-family: 'Montserrat-Regular';
   font-weight: normal;
   font-style: normal;
   color: black;
@@ -3345,6 +3345,10 @@ s {
   .grid-item .summary .title {
     font-size: 8vw;
   }
+
+  .box p {
+  font-family: 'Montserrat-Medium';
+}
 
   .header .name {
     font-size: 5vh;
