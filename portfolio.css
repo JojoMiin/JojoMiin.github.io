@@ -253,20 +253,23 @@ s {
 
 .menubar .about {
   position: relative;
+  background: lightpink;
+  box-shadow: 7px 7px 8px #626262, -7px -7px 8px #ffffff;
+  border-radius: 2vh;
   height: auto;
-  padding: 15px;
+  padding: 30px;
   margin: 15px;
   z-index: 1;
 }
 
 .menubar .about .title {
-  font-family: 'Montserrat-LightItalic';
+  font-family: 'Montserrat-SemiBold';
   font-weight: normal;
   font-size: 30px;
   margin-bottom: 0.3em;
   line-height: 105%;
   padding-bottom: 1vh;
-  text-align: right;
+  text-align: left;
 }
 
 .menubar .about .info {
