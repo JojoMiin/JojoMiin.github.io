@@ -237,7 +237,7 @@ u {
   position: fixed;
   background: none;
   height: 100%;
-  width: 25%;
+  width: calc(27vw - 15px);
   z-index: 1;
   top: 0;
   right: 0;
@@ -288,7 +288,7 @@ u {
   font-weight: normal;
   font-size: 15px;
   margin-bottom: 0.3em;
-  font-size: calc(12px + 0.1vw);
+  font-size: calc(12px + 0.2vw);
 }
 
 .menubar .menubar-item .contact {
@@ -394,7 +394,7 @@ u {
 
 .grid-wrapper {
   padding-top: 10vh;
-  padding-right: calc(25% + 2px);
+  padding-right: 26vw;
 }
 
 .grid-container {
