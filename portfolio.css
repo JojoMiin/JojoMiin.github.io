@@ -288,7 +288,7 @@ u {
   font-weight: normal;
   font-size: 15px;
   margin-bottom: 0.3em;
-  font-size: calc(12px + 0.2vw);
+  font-size: calc(12px + 0.1vw);
 }
 
 .menubar .menubar-item .contact {
