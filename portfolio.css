@@ -263,6 +263,7 @@ u {
 
 .menubar .about {
   position: relative;
+  background: whitesmoke;
   box-shadow: 7px 7px 8px #626262, -7px -7px 8px white;
   border-radius: 2vh;
   height: auto;
