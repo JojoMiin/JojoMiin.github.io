@@ -645,7 +645,7 @@ u {
     width: 42vw;
     float: right;
     margin-left: 55vw;
-    padding: 5vw 5vw 5vw 5vw;
+    padding: 5vw 5vw 2vh 5vw;
     box-sizing: border-box;
     position: fixed;
 }
