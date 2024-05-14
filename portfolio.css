@@ -727,2382 +727,1449 @@ u {
 }
 
 
-
 /* --------------------- */
 .sidenav2::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
 
 .sidenav2 {
-  height: 98%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 1%;
-  right: -50vw;
-  background-color: whitesmoke;
-  overflow-x: hidden;
-  transition: 0.75s;
-  border-radius: 10vw;
-  border: 5px solid lightpink;
-  box-shadow:inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw lightpink;
-  margin: auto;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: -50vw;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+    transition: 0.75s;
+    border-radius: 10vw;
+    border: 5px solid lightpink;
+    box-shadow: inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw lightpink;
 }
 
 .sidenav2 .title {
-  font-family: 'Montserrat-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  font-size: calc(2px + 4vw);
-  text-align: right;
-  line-height: 105%;
-  padding-bottom: 2%;
+    font-family: 'Montserrat-SemiBold';
+    font-weight: normal;
+    font-style: normal;
+    font-size: calc(30px + 2vw);
+    text-align: right;
+    line-height: 105%;
+    padding-bottom: 2vh;
+    position: relative;
 }
 
 .sidenav2 .info {
-  font-family: 'Montserrat-LightItalic';
-  font-weight: normal;
-  font-size: 1.5vh;
-  margin-bottom: 1vh;
-  text-align: right;
+    font-family: 'Montserrat-LightItalic';
+    font-weight: normal;
+    font-size: 1.5vh;
+    margin-bottom: 3vh;
+    text-align: right;
+    position: relative;
 }
 
 .sidenav2 h1 {
-  text-decoration: none;
-  color: black;
-  display: block;
-
+    text-decoration: none;
+    color: black;
+    display: block;
 }
 
 .sidenav2 a {
-  font-size: 1.5vh;
-  font-family: 'Montserrat-LightItalic';
-  font-style: italic;
+    font-size: 1.5vh;
+    font-family: 'Montserrat-LightItalic';
+    font-style: italic;
 }
 
 .sidenav2 img {
-  position: inherit;
-  width: 43vw;
-  height: auto;
-  border: 1px solid black;
-  border-radius: 2vw;
-}
-
-.center2 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90vw;
+    width: 100%;
+    height: auto;
+    border-radius: 2vw;
+    margin-bottom: 10px;
 }
 
 .sidenav2 .closebtn2 {
-  position: absolute;
-  font-family: 'Montserrat-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  color: black;
-  font-size: calc(2px + 4vw);
-  right: 0;
-  text-align: right;
+    position: fixed;
+    font-family: 'Montserrat-SemiBold';
+    font-weight: normal;
+    font-style: normal;
+    color: black;
+    font-size: calc(20px + 1.5vw);
+    text-align: center;
+    border-radius: 1vw;
+    margin-left: calc(50% - (20px + 1.5vw + 1.5vw));
+    bottom: 3vh;
+    background: pink;
+    padding: 0px .75vw .75vw .75vw;
+    z-index: 3;
 }
 
-@media screen and (max-height: 450px) {
-  .sidenav2 {
-    padding-top: 15px;
-  }
-
-  .sidenav2 a {
-    font-size: 18px;
-  }
-}
 
 /* --------------------- */
 .sidenav3::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
 
 .sidenav3 {
-  height: 98%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 1%;
-  right: -50vw;
-  background-color: whitesmoke;
-  overflow-x: hidden;
-  transition: 0.75s;
-  border-radius: 10vw;
-  border: 5px solid lightpink;
-  box-shadow:inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw lightpink;
-  margin: auto;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: -50vw;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+    transition: 0.75s;
+    border-radius: 10vw;
+    border: 5px solid lightpink;
+    box-shadow: inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw lightpink;
 }
 
 .sidenav3 .title {
-  font-family: 'Montserrat-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  font-size: calc(2px + 4vw);
-  text-align: right;
-  line-height: 105%;
-  padding-bottom: 2%;
+    font-family: 'Montserrat-SemiBold';
+    font-weight: normal;
+    font-style: normal;
+    font-size: calc(30px + 2vw);
+    text-align: right;
+    line-height: 105%;
+    padding-bottom: 2vh;
+    position: relative;
 }
 
 .sidenav3 .info {
-  font-family: 'Montserrat-LightItalic';
-  font-weight: normal;
-  font-size: 1.5vh;
-  margin-bottom: 1vh;
-  text-align: right;
+    font-family: 'Montserrat-LightItalic';
+    font-weight: normal;
+    font-size: 1.5vh;
+    margin-bottom: 3vh;
+    text-align: right;
+    position: relative;
 }
 
 .sidenav3 h1 {
-  text-decoration: none;
-  color: black;
-  display: block;
-
+    text-decoration: none;
+    color: black;
+    display: block;
 }
 
 .sidenav3 a {
-  font-size: 1.5vh;
-  font-family: 'Montserrat-LightItalic';
-  font-style: italic;
+    font-size: 1.5vh;
+    font-family: 'Montserrat-LightItalic';
+    font-style: italic;
 }
 
 .sidenav3 img {
-  position: inherit;
-  width: 43vw;
-  height: auto;
-  border: 1px solid black;
-  border-radius: 2vw;
-}
-
-.center3 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90vw;
+    width: 100%;
+    height: auto;
+    border-radius: 2vw;
+    margin-bottom: 10px;
 }
 
 .sidenav3 .closebtn3 {
-  position: absolute;
-  font-family: 'Montserrat-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  color: black;
-  font-size: calc(2px + 4vw);
-  right: 0;
-  text-align: right;
+    position: fixed;
+    font-family: 'Montserrat-SemiBold';
+    font-weight: normal;
+    font-style: normal;
+    color: black;
+    font-size: calc(20px + 1.5vw);
+    text-align: center;
+    border-radius: 1vw;
+    margin-left: calc(50% - (20px + 1.5vw + 1.5vw));
+    bottom: 3vh;
+    background: pink;
+    padding: 0px .75vw .75vw .75vw;
+    z-index: 3;
 }
 
-@media screen and (max-height: 450px) {
-  .sidenav3 {
-    padding-top: 15px;
-  }
-
-  .sidenav3 a {
-    font-size: 18px;
-  }
-}
 
 /* --------------------- */
 .sidenav4::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
 
 .sidenav4 {
-  height: 98%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 1%;
-  right: -50vw;
-  background-color: whitesmoke;
-  overflow-x: hidden;
-  transition: 0.75s;
-  border-radius: 10vw;
-  border: 5px solid lightpink;
-  box-shadow:inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw lightpink;
-  margin: auto;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: -50vw;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+    transition: 0.75s;
+    border-radius: 10vw;
+    border: 5px solid lightpink;
+    box-shadow: inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw lightpink;
 }
 
 .sidenav4 .title {
-  font-family: 'Montserrat-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  font-size: calc(2px + 4vw);
-  text-align: right;
-  line-height: 105%;
-  padding-bottom: 2%;
+    font-family: 'Montserrat-SemiBold';
+    font-weight: normal;
+    font-style: normal;
+    font-size: calc(30px + 2vw);
+    text-align: right;
+    line-height: 105%;
+    padding-bottom: 2vh;
+    position: relative;
 }
 
 .sidenav4 .info {
-  font-family: 'Montserrat-LightItalic';
-  font-weight: normal;
-  font-size: 1.5vh;
-  margin-bottom: 1vh;
-  text-align: right;
+    font-family: 'Montserrat-LightItalic';
+    font-weight: normal;
+    font-size: 1.5vh;
+    margin-bottom: 3vh;
+    text-align: right;
+    position: relative;
 }
 
 .sidenav4 h1 {
-  text-decoration: none;
-  color: black;
-  display: block;
-
+    text-decoration: none;
+    color: black;
+    display: block;
 }
 
 .sidenav4 a {
-  font-size: 1.5vh;
-  font-family: 'Montserrat-LightItalic';
-  font-style: italic;
+    font-size: 1.5vh;
+    font-family: 'Montserrat-LightItalic';
+    font-style: italic;
 }
 
 .sidenav4 img {
-  position: inherit;
-  width: 43vw;
-  height: auto;
-  border: 1px solid black;
-  border-radius: 2vw;
-}
-
-.center4 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90vw;
+    width: 100%;
+    height: auto;
+    border-radius: 2vw;
+    margin-bottom: 10px;
 }
 
 .sidenav4 .closebtn4 {
-  position: absolute;
-  font-family: 'Montserrat-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  color: black;
-  font-size: calc(2px + 4vw);
-  right: 0;
-  text-align: right;
+    position: fixed;
+    font-family: 'Montserrat-SemiBold';
+    font-weight: normal;
+    font-style: normal;
+    color: black;
+    font-size: calc(20px + 1.5vw);
+    text-align: center;
+    border-radius: 1vw;
+    margin-left: calc(50% - (20px + 1.5vw + 1.5vw));
+    bottom: 3vh;
+    background: pink;
+    padding: 0px .75vw .75vw .75vw;
+    z-index: 3;
 }
 
-@media screen and (max-height: 450px) {
-  .sidenav4 {
-    padding-top: 15px;
-  }
-
-  .sidenav4 a {
-    font-size: 18px;
-  }
-}
 
 /* --------------------- */
 .sidenav5::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
 
 .sidenav5 {
-  height: 98%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 1%;
-  right: -50vw;
-  background-color: whitesmoke;
-  overflow-x: hidden;
-  transition: 0.75s;
-  border-radius: 10vw;
-  border: 5px solid lightpink;
-  box-shadow:inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw lightpink;
-  margin: auto;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: -50vw;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+    transition: 0.75s;
+    border-radius: 10vw;
+    border: 5px solid lightpink;
+    box-shadow: inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw lightpink;
 }
 
 .sidenav5 .title {
-  font-family: 'Montserrat-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  font-size: calc(2px + 4vw);
-  text-align: right;
-  line-height: 105%;
-  padding-bottom: 2%;
+    font-family: 'Montserrat-SemiBold';
+    font-weight: normal;
+    font-style: normal;
+    font-size: calc(30px + 2vw);
+    text-align: right;
+    line-height: 105%;
+    padding-bottom: 2vh;
+    position: relative;
 }
 
 .sidenav5 .info {
-  font-family: 'Montserrat-LightItalic';
-  font-weight: normal;
-  font-size: 1.5vh;
-  margin-bottom: 1vh;
-  text-align: right;
+    font-family: 'Montserrat-LightItalic';
+    font-weight: normal;
+    font-size: 1.5vh;
+    margin-bottom: 3vh;
+    text-align: right;
+    position: relative;
 }
 
 .sidenav5 h1 {
-  text-decoration: none;
-  color: black;
-  display: block;
-
+    text-decoration: none;
+    color: black;
+    display: block;
 }
 
 .sidenav5 a {
-  font-size: 1.5vh;
-  font-family: 'Montserrat-LightItalic';
-  font-style: italic;
+    font-size: 1.5vh;
+    font-family: 'Montserrat-LightItalic';
+    font-style: italic;
 }
 
 .sidenav5 img {
-  position: inherit;
-  width: 43vw;
-  height: auto;
-  border: 1px solid black;
-  border-radius: 2vw;
-}
-
-.center5 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90vw;
+    width: 100%;
+    height: auto;
+    border-radius: 2vw;
+    margin-bottom: 10px;
 }
 
 .sidenav5 .closebtn5 {
-  position: absolute;
-  font-family: 'Montserrat-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  color: black;
-  font-size: calc(2px + 4vw);
-  right: 0;
-  text-align: right;
+    position: fixed;
+    font-family: 'Montserrat-SemiBold';
+    font-weight: normal;
+    font-style: normal;
+    color: black;
+    font-size: calc(20px + 1.5vw);
+    text-align: center;
+    border-radius: 1vw;
+    margin-left: calc(50% - (20px + 1.5vw + 1.5vw));
+    bottom: 3vh;
+    background: pink;
+    padding: 0px .75vw .75vw .75vw;
+    z-index: 3;
 }
 
-@media screen and (max-height: 450px) {
-  .sidenav5 {
-    padding-top: 15px;
-  }
-
-  .sidenav5 a {
-    font-size: 18px;
-  }
-}
 
 /* --------------------- */
 .sidenav6::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
 
 .sidenav6 {
-  height: 98%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 1%;
-  right: -50vw;
-  background-color: whitesmoke;
-  overflow-x: hidden;
-  transition: 0.75s;
-  border-radius: 10vw;
-  border: 5px solid lightpink;
-  box-shadow:inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw lightpink;
-  margin: auto;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: -50vw;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+    transition: 0.75s;
+    border-radius: 10vw;
+    border: 5px solid lightpink;
+    box-shadow: inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw lightpink;
 }
 
 .sidenav6 .title {
-  font-family: 'Montserrat-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  font-size: calc(2px + 4vw);
-  text-align: right;
-  line-height: 105%;
-  padding-bottom: 2%;
+    font-family: 'Montserrat-SemiBold';
+    font-weight: normal;
+    font-style: normal;
+    font-size: calc(30px + 2vw);
+    text-align: right;
+    line-height: 105%;
+    padding-bottom: 2vh;
+    position: relative;
 }
 
 .sidenav6 .info {
-  font-family: 'Montserrat-LightItalic';
-  font-weight: normal;
-  font-size: 1.5vh;
-  margin-bottom: 1vh;
-  text-align: right;
+    font-family: 'Montserrat-LightItalic';
+    font-weight: normal;
+    font-size: 1.5vh;
+    margin-bottom: 3vh;
+    text-align: right;
+    position: relative;
 }
 
 .sidenav6 h1 {
-  text-decoration: none;
-  color: black;
-  display: block;
-
+    text-decoration: none;
+    color: black;
+    display: block;
 }
 
 .sidenav6 a {
-  font-size: 1.5vh;
-  font-family: 'Montserrat-LightItalic';
-  font-style: italic;
+    font-size: 1.5vh;
+    font-family: 'Montserrat-LightItalic';
+    font-style: italic;
 }
 
 .sidenav6 img {
-  position: inherit;
-  width: 43vw;
-  height: auto;
-  border: 1px solid black;
-  border-radius: 2vw;
-}
-
-.center6 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90vw;
+    width: 100%;
+    height: auto;
+    border-radius: 2vw;
+    margin-bottom: 10px;
 }
 
 .sidenav6 .closebtn6 {
-  position: absolute;
-  font-family: 'Montserrat-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  color: black;
-  font-size: calc(2px + 4vw);
-  right: 0;
-  text-align: right;
+    position: fixed;
+    font-family: 'Montserrat-SemiBold';
+    font-weight: normal;
+    font-style: normal;
+    color: black;
+    font-size: calc(20px + 1.5vw);
+    text-align: center;
+    border-radius: 1vw;
+    margin-left: calc(50% - (20px + 1.5vw + 1.5vw));
+    bottom: 3vh;
+    background: pink;
+    padding: 0px .75vw .75vw .75vw;
+    z-index: 3;
 }
 
-@media screen and (max-height: 450px) {
-  .sidenav6 {
-    padding-top: 15px;
-  }
-
-  .sidenav6 a {
-    font-size: 18px;
-  }
-}
 
 /* --------------------- */
 .sidenav7::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
 
 .sidenav7 {
-  height: 98%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 1%;
-  right: -50vw;
-  background-color: whitesmoke;
-  overflow-x: hidden;
-  transition: 0.75s;
-  border-radius: 10vw;
-  border: 5px solid lightpink;
-  box-shadow:inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw lightpink;
-  margin: auto;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: -50vw;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+    transition: 0.75s;
+    border-radius: 10vw;
+    border: 5px solid lightpink;
+    box-shadow: inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw lightpink;
 }
 
 .sidenav7 .title {
-  font-family: 'Montserrat-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  font-size: calc(2px + 4vw);
-  text-align: right;
-  line-height: 105%;
-  padding-bottom: 2%;
+    font-family: 'Montserrat-SemiBold';
+    font-weight: normal;
+    font-style: normal;
+    font-size: calc(30px + 2vw);
+    text-align: right;
+    line-height: 105%;
+    padding-bottom: 2vh;
+    position: relative;
 }
 
 .sidenav7 .info {
-  font-family: 'Montserrat-LightItalic';
-  font-weight: normal;
-  font-size: 1.5vh;
-  margin-bottom: 1vh;
-  text-align: right;
+    font-family: 'Montserrat-LightItalic';
+    font-weight: normal;
+    font-size: 1.5vh;
+    margin-bottom: 3vh;
+    text-align: right;
+    position: relative;
 }
 
 .sidenav7 h1 {
-  text-decoration: none;
-  color: black;
-  display: block;
-
+    text-decoration: none;
+    color: black;
+    display: block;
 }
 
 .sidenav7 a {
-  font-size: 1.5vh;
-  font-family: 'Montserrat-LightItalic';
-  font-style: italic;
+    font-size: 1.5vh;
+    font-family: 'Montserrat-LightItalic';
+    font-style: italic;
 }
 
 .sidenav7 img {
-  position: inherit;
-  width: 43vw;
-  height: auto;
-  border: 1px solid black;
-  border-radius: 2vw;
-}
-
-.center7 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90vw;
+    width: 100%;
+    height: auto;
+    border-radius: 2vw;
+    margin-bottom: 10px;
 }
 
 .sidenav7 .closebtn7 {
-  position: absolute;
-  font-family: 'Montserrat-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  color: black;
-  font-size: calc(2px + 4vw);
-  right: 0;
-  text-align: right;
+    position: fixed;
+    font-family: 'Montserrat-SemiBold';
+    font-weight: normal;
+    font-style: normal;
+    color: black;
+    font-size: calc(20px + 1.5vw);
+    text-align: center;
+    border-radius: 1vw;
+    margin-left: calc(50% - (20px + 1.5vw + 1.5vw));
+    bottom: 3vh;
+    background: pink;
+    padding: 0px .75vw .75vw .75vw;
+    z-index: 3;
 }
 
-@media screen and (max-height: 450px) {
-  .sidenav7 {
-    padding-top: 15px;
-  }
-
-  .sidenav7 a {
-    font-size: 18px;
-  }
-}
 
 /* --------------------- */
 .sidenav8::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
 
 .sidenav8 {
-  height: 98%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 1%;
-  right: -50vw;
-  background-color: whitesmoke;
-  overflow-x: hidden;
-  transition: 0.75s;
-  border-radius: 10vw;
-  border: 5px solid lightpink;
-  box-shadow:inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw lightpink;
-  margin: auto;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: -50vw;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+    transition: 0.75s;
+    border-radius: 10vw;
+    border: 5px solid lightpink;
+    box-shadow: inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw lightpink;
 }
 
 .sidenav8 .title {
-  font-family: 'Montserrat-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  font-size: calc(2px + 4vw);
-  text-align: right;
-  line-height: 105%;
-  padding-bottom: 2%;
+    font-family: 'Montserrat-SemiBold';
+    font-weight: normal;
+    font-style: normal;
+    font-size: calc(30px + 2vw);
+    text-align: right;
+    line-height: 105%;
+    padding-bottom: 2vh;
+    position: relative;
 }
 
 .sidenav8 .info {
-  font-family: 'Montserrat-LightItalic';
-  font-weight: normal;
-  font-size: 1.5vh;
-  margin-bottom: 1vh;
-  text-align: right;
+    font-family: 'Montserrat-LightItalic';
+    font-weight: normal;
+    font-size: 1.5vh;
+    margin-bottom: 3vh;
+    text-align: right;
+    position: relative;
 }
 
 .sidenav8 h1 {
-  text-decoration: none;
-  color: black;
-  display: block;
-
+    text-decoration: none;
+    color: black;
+    display: block;
 }
 
 .sidenav8 a {
-  font-size: 1.5vh;
-  font-family: 'Montserrat-LightItalic';
-  font-style: italic;
+    font-size: 1.5vh;
+    font-family: 'Montserrat-LightItalic';
+    font-style: italic;
 }
 
 .sidenav8 img {
-  position: inherit;
-  width: 43vw;
-  height: auto;
-  border: 1px solid black;
-  border-radius: 2vw;
-}
-
-.center8 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90vw;
+    width: 100%;
+    height: auto;
+    border-radius: 2vw;
+    margin-bottom: 10px;
 }
 
 .sidenav8 .closebtn8 {
-  position: absolute;
-  font-family: 'Montserrat-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  color: black;
-  font-size: calc(2px + 4vw);
-  right: 0;
-  text-align: right;
+    position: fixed;
+    font-family: 'Montserrat-SemiBold';
+    font-weight: normal;
+    font-style: normal;
+    color: black;
+    font-size: calc(20px + 1.5vw);
+    text-align: center;
+    border-radius: 1vw;
+    margin-left: calc(50% - (20px + 1.5vw + 1.5vw));
+    bottom: 3vh;
+    background: pink;
+    padding: 0px .75vw .75vw .75vw;
+    z-index: 3;
 }
 
-@media screen and (max-height: 450px) {
-  .sidenav8 {
-    padding-top: 15px;
-  }
-
-  .sidenav8 a {
-    font-size: 18px;
-  }
-}
 
 /* --------------------- */
 .sidenav9::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
 
 .sidenav9 {
-  height: 98%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 1%;
-  right: -50vw;
-  background-color: whitesmoke;
-  overflow-x: hidden;
-  transition: 0.75s;
-  border-radius: 10vw;
-  border: 5px solid lightpink;
-  box-shadow:inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw lightpink;
-  margin: auto;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: -50vw;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+    transition: 0.75s;
+    border-radius: 10vw;
+    border: 5px solid lightpink;
+    box-shadow: inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw lightpink;
 }
 
 .sidenav9 .title {
-  font-family: 'Montserrat-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  font-size: calc(2px + 4vw);
-  text-align: right;
-  line-height: 105%;
-  padding-bottom: 2%;
+    font-family: 'Montserrat-SemiBold';
+    font-weight: normal;
+    font-style: normal;
+    font-size: calc(30px + 2vw);
+    text-align: right;
+    line-height: 105%;
+    padding-bottom: 2vh;
+    position: relative;
 }
 
 .sidenav9 .info {
-  font-family: 'Montserrat-LightItalic';
-  font-weight: normal;
-  font-size: 1.5vh;
-  margin-bottom: 1vh;
-  text-align: right;
+    font-family: 'Montserrat-LightItalic';
+    font-weight: normal;
+    font-size: 1.5vh;
+    margin-bottom: 3vh;
+    text-align: right;
+    position: relative;
 }
 
 .sidenav9 h1 {
-  text-decoration: none;
-  color: black;
-  display: block;
-
+    text-decoration: none;
+    color: black;
+    display: block;
 }
 
 .sidenav9 a {
-  font-size: 1.5vh;
-  font-family: 'Montserrat-LightItalic';
-  font-style: italic;
+    font-size: 1.5vh;
+    font-family: 'Montserrat-LightItalic';
+    font-style: italic;
 }
 
 .sidenav9 img {
-  position: inherit;
-  width: 43vw;
-  height: auto;
-  border: 1px solid black;
-  border-radius: 2vw;
-}
-
-.center9 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90vw;
+    width: 100%;
+    height: auto;
+    border-radius: 2vw;
+    margin-bottom: 10px;
 }
 
 .sidenav9 .closebtn9 {
-  position: absolute;
-  font-family: 'Montserrat-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  color: black;
-  font-size: calc(2px + 4vw);
-  right: 0;
-  text-align: right;
+    position: fixed;
+    font-family: 'Montserrat-SemiBold';
+    font-weight: normal;
+    font-style: normal;
+    color: black;
+    font-size: calc(20px + 1.5vw);
+    text-align: center;
+    border-radius: 1vw;
+    margin-left: calc(50% - (20px + 1.5vw + 1.5vw));
+    bottom: 3vh;
+    background: pink;
+    padding: 0px .75vw .75vw .75vw;
+    z-index: 3;
 }
 
-@media screen and (max-height: 450px) {
-  .sidenav9 {
-    padding-top: 15px;
-  }
-
-  .sidenav9 a {
-    font-size: 18px;
-  }
-}
 
 /* --------------------- */
 .sidenav10::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
 
 .sidenav10 {
-  height: 98%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 1%;
-  right: -50vw;
-  background-color: whitesmoke;
-  overflow-x: hidden;
-  transition: 0.75s;
-  border-radius: 10vw;
-  border: 5px solid lightpink;
-  box-shadow:inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw lightpink;
-  margin: auto;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: -50vw;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+    transition: 0.75s;
+    border-radius: 10vw;
+    border: 5px solid lightpink;
+    box-shadow: inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw lightpink;
 }
 
 .sidenav10 .title {
-  font-family: 'Montserrat-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  font-size: calc(2px + 4vw);
-  text-align: right;
-  line-height: 105%;
-  padding-bottom: 2%;
+    font-family: 'Montserrat-SemiBold';
+    font-weight: normal;
+    font-style: normal;
+    font-size: calc(30px + 2vw);
+    text-align: right;
+    line-height: 105%;
+    padding-bottom: 2vh;
+    position: relative;
 }
 
 .sidenav10 .info {
-  font-family: 'Montserrat-LightItalic';
-  font-weight: normal;
-  font-size: 1.5vh;
-  margin-bottom: 1vh;
-  text-align: right;
+    font-family: 'Montserrat-LightItalic';
+    font-weight: normal;
+    font-size: 1.5vh;
+    margin-bottom: 3vh;
+    text-align: right;
+    position: relative;
 }
 
 .sidenav10 h1 {
-  text-decoration: none;
-  color: black;
-  display: block;
-
+    text-decoration: none;
+    color: black;
+    display: block;
 }
 
 .sidenav10 a {
-  font-size: 1.5vh;
-  font-family: 'Montserrat-LightItalic';
-  font-style: italic;
+    font-size: 1.5vh;
+    font-family: 'Montserrat-LightItalic';
+    font-style: italic;
 }
 
 .sidenav10 img {
-  position: inherit;
-  width: 43vw;
-  height: auto;
-  border: 1px solid black;
-  border-radius: 2vw;
-}
-
-.center10 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90vw;
+    width: 100%;
+    height: auto;
+    border-radius: 2vw;
+    margin-bottom: 10px;
 }
 
 .sidenav10 .closebtn10 {
-  position: absolute;
-  font-family: 'Montserrat-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  color: black;
-  font-size: calc(2px + 4vw);
-  right: 0;
-  text-align: right;
+    position: fixed;
+    font-family: 'Montserrat-SemiBold';
+    font-weight: normal;
+    font-style: normal;
+    color: black;
+    font-size: calc(20px + 1.5vw);
+    text-align: center;
+    border-radius: 1vw;
+    margin-left: calc(50% - (20px + 1.5vw + 1.5vw));
+    bottom: 3vh;
+    background: pink;
+    padding: 0px .75vw .75vw .75vw;
+    z-index: 3;
 }
 
-@media screen and (max-height: 450px) {
-  .sidenav10 {
-    padding-top: 15px;
-  }
-
-  .sidenav10 a {
-    font-size: 18px;
-  }
-}
 
 /* --------------------- */
 .sidenav11::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
 
 .sidenav11 {
-  height: 98%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 1%;
-  right: -50vw;
-  background-color: whitesmoke;
-  overflow-x: hidden;
-  transition: 0.75s;
-  border-radius: 10vw;
-  border: 5px solid lightpink;
-  box-shadow:inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw lightpink;
-  margin: auto;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: -50vw;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+    transition: 0.75s;
+    border-radius: 10vw;
+    border: 5px solid lightpink;
+    box-shadow: inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw lightpink;
 }
 
 .sidenav11 .title {
-  font-family: 'Montserrat-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  font-size: calc(2px + 4vw);
-  text-align: right;
-  line-height: 105%;
-  padding-bottom: 2%;
+    font-family: 'Montserrat-SemiBold';
+    font-weight: normal;
+    font-style: normal;
+    font-size: calc(30px + 2vw);
+    text-align: right;
+    line-height: 105%;
+    padding-bottom: 2vh;
+    position: relative;
 }
 
 .sidenav11 .info {
-  font-family: 'Montserrat-LightItalic';
-  font-weight: normal;
-  font-size: 1.5vh;
-  margin-bottom: 1vh;
-  text-align: right;
+    font-family: 'Montserrat-LightItalic';
+    font-weight: normal;
+    font-size: 1.5vh;
+    margin-bottom: 3vh;
+    text-align: right;
+    position: relative;
 }
 
 .sidenav11 h1 {
-  text-decoration: none;
-  color: black;
-  display: block;
-
+    text-decoration: none;
+    color: black;
+    display: block;
 }
 
 .sidenav11 a {
-  font-size: 1.5vh;
-  font-family: 'Montserrat-LightItalic';
-  font-style: italic;
+    font-size: 1.5vh;
+    font-family: 'Montserrat-LightItalic';
+    font-style: italic;
 }
 
 .sidenav11 img {
-  position: inherit;
-  width: 43vw;
-  height: auto;
-  border: 1px solid black;
-  border-radius: 2vw;
-}
-
-.center11 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90vw;
+    width: 100%;
+    height: auto;
+    border-radius: 2vw;
+    margin-bottom: 10px;
 }
 
 .sidenav11 .closebtn11 {
-  position: absolute;
-  font-family: 'Montserrat-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  color: black;
-  font-size: calc(2px + 4vw);
-  right: 0;
-  text-align: right;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav11 {
-    padding-top: 15px;
-  }
-
-  .sidenav11 a {
-    font-size: 18px;
-  }
+    position: fixed;
+    font-family: 'Montserrat-SemiBold';
+    font-weight: normal;
+    font-style: normal;
+    color: black;
+    font-size: calc(20px + 1.5vw);
+    text-align: center;
+    border-radius: 1vw;
+    margin-left: calc(50% - (20px + 1.5vw + 1.5vw));
+    bottom: 3vh;
+    background: pink;
+    padding: 0px .75vw .75vw .75vw;
+    z-index: 3;
 }
 
 /* --------------------- */
 .sidenav12::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
 
 .sidenav12 {
-  height: 98%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 1%;
-  right: -50vw;
-  background-color: whitesmoke;
-  overflow-x: hidden;
-  transition: 0.75s;
-  border-radius: 10vw;
-  border: 5px solid lightpink;
-  box-shadow:inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw lightpink;
-  margin: auto;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: -50vw;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+    transition: 0.75s;
+    border-radius: 10vw;
+    border: 5px solid lightpink;
+    box-shadow: inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw lightpink;
 }
-
 .sidenav12 .title {
-  font-family: 'Montserrat-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  font-size: calc(2px + 4vw);
-  text-align: right;
-  line-height: 105%;
-  padding-bottom: 2%;
+    font-family: 'Montserrat-SemiBold';
+    font-weight: normal;
+    font-style: normal;
+    font-size: calc(30px + 2vw);
+    text-align: right;
+    line-height: 105%;
+    padding-bottom: 2vh;
+    position: relative;
 }
 
 .sidenav12 .info {
-  font-family: 'Montserrat-LightItalic';
-  font-weight: normal;
-  font-size: 1.5vh;
-  margin-bottom: 1vh;
-  text-align: right;
+    font-family: 'Montserrat-LightItalic';
+    font-weight: normal;
+    font-size: 1.5vh;
+    margin-bottom: 3vh;
+    text-align: right;
+    position: relative;
 }
 
 .sidenav12 h1 {
-  text-decoration: none;
-  color: black;
-  display: block;
-
+    text-decoration: none;
+    color: black;
+    display: block;
 }
 
 .sidenav12 a {
-  font-size: 1.5vh;
-  font-family: 'Montserrat-LightItalic';
-  font-style: italic;
+    font-size: 1.5vh;
+    font-family: 'Montserrat-LightItalic';
+    font-style: italic;
 }
 
 .sidenav12 img {
-  position: inherit;
-  width: 43vw;
-  height: auto;
-  border: 1px solid black;
-  border-radius: 2vw;
-}
-
-.center12 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90vw;
+    width: 100%;
+    height: auto;
+    border-radius: 2vw;
+    margin-bottom: 10px;
 }
 
 .sidenav12 .closebtn12 {
-  position: absolute;
-  font-family: 'Montserrat-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  color: black;
-  font-size: calc(2px + 4vw);
-  right: 0;
-  text-align: right;
+    position: fixed;
+    font-family: 'Montserrat-SemiBold';
+    font-weight: normal;
+    font-style: normal;
+    color: black;
+    font-size: calc(20px + 1.5vw);
+    text-align: center;
+    border-radius: 1vw;
+    margin-left: calc(50% - (20px + 1.5vw + 1.5vw));
+    bottom: 3vh;
+    background: pink;
+    padding: 0px .75vw .75vw .75vw;
+    z-index: 3;
 }
 
-@media screen and (max-height: 450px) {
-  .sidenav12 {
-    padding-top: 15px;
-  }
-
-  .sidenav12 a {
-    font-size: 18px;
-  }
-}
 
 /* --------------------- */
 .sidenav13::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
 
 .sidenav13 {
-  height: 98%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 1%;
-  right: -50vw;
-  background-color: whitesmoke;
-  overflow-x: hidden;
-  transition: 0.75s;
-  border-radius: 10vw;
-  border: 5px solid lightpink;
-  box-shadow:inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw lightpink;
-  margin: auto;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: -50vw;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+    transition: 0.75s;
+    border-radius: 10vw;
+    border: 5px solid lightpink;
+    box-shadow: inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw lightpink;
 }
 
 .sidenav13 .title {
-  font-family: 'Montserrat-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  font-size: calc(2px + 4vw);
-  text-align: right;
-  line-height: 105%;
-  padding-bottom: 2%;
+    font-family: 'Montserrat-SemiBold';
+    font-weight: normal;
+    font-style: normal;
+    font-size: calc(30px + 2vw);
+    text-align: right;
+    line-height: 105%;
+    padding-bottom: 2vh;
+    position: relative;
 }
 
 .sidenav13 .info {
-  font-family: 'Montserrat-LightItalic';
-  font-weight: normal;
-  font-size: 1.5vh;
-  margin-bottom: 1vh;
-  text-align: right;
+    font-family: 'Montserrat-LightItalic';
+    font-weight: normal;
+    font-size: 1.5vh;
+    margin-bottom: 3vh;
+    text-align: right;
+    position: relative;
 }
 
 .sidenav13 h1 {
-  text-decoration: none;
-  color: black;
-  display: block;
-
+    text-decoration: none;
+    color: black;
+    display: block;
 }
 
 .sidenav13 a {
-  font-size: 1.5vh;
-  font-family: 'Montserrat-LightItalic';
-  font-style: italic;
+    font-size: 1.5vh;
+    font-family: 'Montserrat-LightItalic';
+    font-style: italic;
 }
 
 .sidenav13 img {
-  position: inherit;
-  width: 43vw;
-  height: auto;
-  border: 1px solid black;
-  border-radius: 2vw;
-}
-
-.center13 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90vw;
+    width: 100%;
+    height: auto;
+    border-radius: 2vw;
+    margin-bottom: 10px;
 }
 
 .sidenav13 .closebtn13 {
-  position: absolute;
-  font-family: 'Montserrat-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  color: black;
-  font-size: calc(2px + 4vw);
-  right: 0;
-  text-align: right;
+    position: fixed;
+    font-family: 'Montserrat-SemiBold';
+    font-weight: normal;
+    font-style: normal;
+    color: black;
+    font-size: calc(20px + 1.5vw);
+    text-align: center;
+    border-radius: 1vw;
+    margin-left: calc(50% - (20px + 1.5vw + 1.5vw));
+    bottom: 3vh;
+    background: pink;
+    padding: 0px .75vw .75vw .75vw;
+    z-index: 3;
 }
 
-@media screen and (max-height: 450px) {
-  .sidenav13 {
-    padding-top: 15px;
-  }
-
-  .sidenav13 a {
-    font-size: 18px;
-  }
-}
 
 /* --------------------- */
 .sidenav14::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
 
 .sidenav14 {
-  height: 98%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 1%;
-  right: -50vw;
-  background-color: whitesmoke;
-  overflow-x: hidden;
-  transition: 0.75s;
-  border-radius: 10vw;
-  border: 5px solid lightpink;
-  box-shadow:inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw lightpink;
-  margin: auto;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: -50vw;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+    transition: 0.75s;
+    border-radius: 10vw;
+    border: 5px solid lightpink;
+    box-shadow: inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw lightpink;
 }
 
 .sidenav14 .title {
-  font-family: 'Montserrat-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  font-size: calc(2px + 4vw);
-  text-align: right;
-  line-height: 105%;
-  padding-bottom: 2%;
+    font-family: 'Montserrat-SemiBold';
+    font-weight: normal;
+    font-style: normal;
+    font-size: calc(30px + 2vw);
+    text-align: right;
+    line-height: 105%;
+    padding-bottom: 2vh;
+    position: relative;
 }
 
 .sidenav14 .info {
-  font-family: 'Montserrat-LightItalic';
-  font-weight: normal;
-  font-size: 1.5vh;
-  margin-bottom: 1vh;
-  text-align: right;
+    font-family: 'Montserrat-LightItalic';
+    font-weight: normal;
+    font-size: 1.5vh;
+    margin-bottom: 3vh;
+    text-align: right;
+    position: relative;
 }
 
 .sidenav14 h1 {
-  text-decoration: none;
-  color: black;
-  display: block;
-
+    text-decoration: none;
+    color: black;
+    display: block;
 }
 
 .sidenav14 a {
-  font-size: 1.5vh;
-  font-family: 'Montserrat-LightItalic';
-  font-style: italic;
+    font-size: 1.5vh;
+    font-family: 'Montserrat-LightItalic';
+    font-style: italic;
 }
 
 .sidenav14 img {
-  position: inherit;
-  width: 43vw;
-  height: auto;
-  border: 1px solid black;
-  border-radius: 2vw;
-}
-
-.center14 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90vw;
+    width: 100%;
+    height: auto;
+    border-radius: 2vw;
+    margin-bottom: 10px;
 }
 
 .sidenav14 .closebtn14 {
-  position: absolute;
-  font-family: 'Montserrat-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  color: black;
-  font-size: calc(2px + 4vw);
-  right: 0;
-  text-align: right;
+    position: fixed;
+    font-family: 'Montserrat-SemiBold';
+    font-weight: normal;
+    font-style: normal;
+    color: black;
+    font-size: calc(20px + 1.5vw);
+    text-align: center;
+    border-radius: 1vw;
+    margin-left: calc(50% - (20px + 1.5vw + 1.5vw));
+    bottom: 3vh;
+    background: pink;
+    padding: 0px .75vw .75vw .75vw;
+    z-index: 3;
 }
 
-@media screen and (max-height: 450px) {
-  .sidenav14 {
-    padding-top: 15px;
-  }
-
-  .sidenav14 a {
-    font-size: 18px;
-  }
-}
 
 /* --------------------- */
 .sidenav15::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
 
 .sidenav15 {
-  height: 98%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 1%;
-  right: -50vw;
-  background-color: whitesmoke;
-  overflow-x: hidden;
-  transition: 0.75s;
-  border-radius: 10vw;
-  border: 5px solid lightpink;
-  box-shadow:inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw lightpink;
-  margin: auto;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: -50vw;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+    transition: 0.75s;
+    border-radius: 10vw;
+    border: 5px solid lightpink;
+    box-shadow: inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw lightpink;
 }
 
 .sidenav15 .title {
-  font-family: 'Montserrat-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  font-size: calc(2px + 4vw);
-  text-align: right;
-  line-height: 105%;
-  padding-bottom: 2%;
+    font-family: 'Montserrat-SemiBold';
+    font-weight: normal;
+    font-style: normal;
+    font-size: calc(30px + 2vw);
+    text-align: right;
+    line-height: 105%;
+    padding-bottom: 2vh;
+    position: relative;
 }
 
 .sidenav15 .info {
-  font-family: 'Montserrat-LightItalic';
-  font-weight: normal;
-  font-size: 1.5vh;
-  margin-bottom: 1vh;
-  text-align: right;
+    font-family: 'Montserrat-LightItalic';
+    font-weight: normal;
+    font-size: 1.5vh;
+    margin-bottom: 3vh;
+    text-align: right;
+    position: relative;
 }
 
 .sidenav15 h1 {
-  text-decoration: none;
-  color: black;
-  display: block;
-
+    text-decoration: none;
+    color: black;
+    display: block;
 }
 
 .sidenav15 a {
-  font-size: 1.5vh;
-  font-family: 'Montserrat-LightItalic';
-  font-style: italic;
+    font-size: 1.5vh;
+    font-family: 'Montserrat-LightItalic';
+    font-style: italic;
 }
 
 .sidenav15 img {
-  position: inherit;
-  width: 43vw;
-  height: auto;
-  border: 1px solid black;
-  border-radius: 2vw;
-}
-
-.center15 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90vw;
+    width: 100%;
+    height: auto;
+    border-radius: 2vw;
+    margin-bottom: 10px;
 }
 
 .sidenav15 .closebtn15 {
-  position: absolute;
-  font-family: 'Montserrat-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  color: black;
-  font-size: calc(2px + 4vw);
-  right: 0;
-  text-align: right;
+    position: fixed;
+    font-family: 'Montserrat-SemiBold';
+    font-weight: normal;
+    font-style: normal;
+    color: black;
+    font-size: calc(20px + 1.5vw);
+    text-align: center;
+    border-radius: 1vw;
+    margin-left: calc(50% - (20px + 1.5vw + 1.5vw));
+    bottom: 3vh;
+    background: pink;
+    padding: 0px .75vw .75vw .75vw;
+    z-index: 3;
 }
 
-@media screen and (max-height: 450px) {
-  .sidenav15 {
-    padding-top: 15px;
-  }
-
-  .sidenav15 a {
-    font-size: 18px;
-  }
-}
 
 /* --------------------- */
 .sidenav16::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
 
 .sidenav16 {
-  height: 98%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 1%;
-  right: -50vw;
-  background-color: whitesmoke;
-  overflow-x: hidden;
-  transition: 0.75s;
-  border-radius: 10vw;
-  border: 5px solid lightpink;
-  box-shadow:inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw lightpink;
-  margin: auto;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: -50vw;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+    transition: 0.75s;
+    border-radius: 10vw;
+    border: 5px solid lightpink;
+    box-shadow: inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw lightpink;
 }
 
 .sidenav16 .title {
-  font-family: 'Montserrat-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  font-size: calc(2px + 4vw);
-  text-align: right;
-  line-height: 105%;
-  padding-bottom: 2%;
+    font-family: 'Montserrat-SemiBold';
+    font-weight: normal;
+    font-style: normal;
+    font-size: calc(30px + 2vw);
+    text-align: right;
+    line-height: 105%;
+    padding-bottom: 2vh;
+    position: relative;
 }
 
 .sidenav16 .info {
-  font-family: 'Montserrat-LightItalic';
-  font-weight: normal;
-  font-size: 1.5vh;
-  margin-bottom: 1vh;
-  text-align: right;
+    font-family: 'Montserrat-LightItalic';
+    font-weight: normal;
+    font-size: 1.5vh;
+    margin-bottom: 3vh;
+    text-align: right;
+    position: relative;
 }
 
 .sidenav16 h1 {
-  text-decoration: none;
-  color: black;
-  display: block;
-
+    text-decoration: none;
+    color: black;
+    display: block;
 }
 
 .sidenav16 a {
-  font-size: 1.5vh;
-  font-family: 'Montserrat-LightItalic';
-  font-style: italic;
+    font-size: 1.5vh;
+    font-family: 'Montserrat-LightItalic';
+    font-style: italic;
 }
 
 .sidenav16 img {
-  position: inherit;
-  width: 43vw;
-  height: auto;
-  border: 1px solid black;
-  border-radius: 2vw;
-}
-
-.center16 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90vw;
+    width: 100%;
+    height: auto;
+    border-radius: 2vw;
+    margin-bottom: 10px;
 }
 
 .sidenav16 .closebtn16 {
-  position: absolute;
-  font-family: 'Montserrat-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  color: black;
-  font-size: calc(2px + 4vw);
-  right: 0;
-  text-align: right;
+    position: fixed;
+    font-family: 'Montserrat-SemiBold';
+    font-weight: normal;
+    font-style: normal;
+    color: black;
+    font-size: calc(20px + 1.5vw);
+    text-align: center;
+    border-radius: 1vw;
+    margin-left: calc(50% - (20px + 1.5vw + 1.5vw));
+    bottom: 3vh;
+    background: pink;
+    padding: 0px .75vw .75vw .75vw;
+    z-index: 3;
 }
 
-@media screen and (max-height: 450px) {
-  .sidenav16 {
-    padding-top: 15px;
-  }
-
-  .sidenav16 a {
-    font-size: 18px;
-  }
-}
 
 /* --------------------- */
 .sidenav17::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
 
 .sidenav17 {
-  height: 98%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 1%;
-  right: -50vw;
-  background-color: whitesmoke;
-  overflow-x: hidden;
-  transition: 0.75s;
-  border-radius: 10vw;
-  border: 5px solid lightpink;
-  box-shadow:inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw lightpink;
-  margin: auto;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: -50vw;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+    transition: 0.75s;
+    border-radius: 10vw;
+    border: 5px solid lightpink;
+    box-shadow: inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw lightpink;
 }
 
 .sidenav17 .title {
-  font-family: 'Montserrat-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  font-size: calc(2px + 4vw);
-  text-align: right;
-  line-height: 105%;
-  padding-bottom: 2%;
+    font-family: 'Montserrat-SemiBold';
+    font-weight: normal;
+    font-style: normal;
+    font-size: calc(30px + 2vw);
+    text-align: right;
+    line-height: 105%;
+    padding-bottom: 2vh;
+    position: relative;
 }
 
 .sidenav17 .info {
-  font-family: 'Montserrat-LightItalic';
-  font-weight: normal;
-  font-size: 1.5vh;
-  margin-bottom: 1vh;
-  text-align: right;
+    font-family: 'Montserrat-LightItalic';
+    font-weight: normal;
+    font-size: 1.5vh;
+    margin-bottom: 3vh;
+    text-align: right;
+    position: relative;
 }
 
 .sidenav17 h1 {
-  text-decoration: none;
-  color: black;
-  display: block;
-
+    text-decoration: none;
+    color: black;
+    display: block;
 }
 
 .sidenav17 a {
-  font-size: 1.5vh;
-  font-family: 'Montserrat-LightItalic';
-  font-style: italic;
+    font-size: 1.5vh;
+    font-family: 'Montserrat-LightItalic';
+    font-style: italic;
 }
 
 .sidenav17 img {
-  position: inherit;
-  width: 43vw;
-  height: auto;
-  border: 1px solid black;
-  border-radius: 2vw;
-}
-
-.center17 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90vw;
+    width: 100%;
+    height: auto;
+    border-radius: 2vw;
+    margin-bottom: 10px;
 }
 
 .sidenav17 .closebtn17 {
-  position: absolute;
-  font-family: 'Montserrat-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  color: black;
-  font-size: calc(2px + 4vw);
-  right: 0;
-  text-align: right;
+    position: fixed;
+    font-family: 'Montserrat-SemiBold';
+    font-weight: normal;
+    font-style: normal;
+    color: black;
+    font-size: calc(20px + 1.5vw);
+    text-align: center;
+    border-radius: 1vw;
+    margin-left: calc(50% - (20px + 1.5vw + 1.5vw));
+    bottom: 3vh;
+    background: pink;
+    padding: 0px .75vw .75vw .75vw;
+    z-index: 3;
 }
 
-@media screen and (max-height: 450px) {
-  .sidenav17 {
-    padding-top: 15px;
-  }
-
-  .sidenav17 a {
-    font-size: 18px;
-  }
-}
 
 /* --------------------- */
 .sidenav18::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
 
 .sidenav18 {
-  height: 98%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 1%;
-  right: -50vw;
-  background-color: whitesmoke;
-  overflow-x: hidden;
-  transition: 0.75s;
-  border-radius: 10vw;
-  border: 5px solid lightpink;
-  box-shadow:inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw lightpink;
-  margin: auto;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: -50vw;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+    transition: 0.75s;
+    border-radius: 10vw;
+    border: 5px solid lightpink;
+    box-shadow: inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw lightpink;
 }
 
 .sidenav18 .title {
-  font-family: 'Montserrat-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  font-size: calc(2px + 4vw);
-  text-align: right;
-  line-height: 105%;
-  padding-bottom: 2%;
+    font-family: 'Montserrat-SemiBold';
+    font-weight: normal;
+    font-style: normal;
+    font-size: calc(30px + 2vw);
+    text-align: right;
+    line-height: 105%;
+    padding-bottom: 2vh;
+    position: relative;
 }
 
 .sidenav18 .info {
-  font-family: 'Montserrat-LightItalic';
-  font-weight: normal;
-  font-size: 1.5vh;
-  margin-bottom: 1vh;
-  text-align: right;
+    font-family: 'Montserrat-LightItalic';
+    font-weight: normal;
+    font-size: 1.5vh;
+    margin-bottom: 3vh;
+    text-align: right;
+    position: relative;
 }
 
 .sidenav18 h1 {
-  text-decoration: none;
-  color: black;
-  display: block;
-
+    text-decoration: none;
+    color: black;
+    display: block;
 }
 
 .sidenav18 a {
-  font-size: 1.5vh;
-  font-family: 'Montserrat-LightItalic';
-  font-style: italic;
+    font-size: 1.5vh;
+    font-family: 'Montserrat-LightItalic';
+    font-style: italic;
 }
 
 .sidenav18 img {
-  position: inherit;
-  width: 43vw;
-  height: auto;
-  border: 1px solid black;
-  border-radius: 2vw;
-}
-
-.center18 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90vw;
+    width: 100%;
+    height: auto;
+    border-radius: 2vw;
+    margin-bottom: 10px;
 }
 
 .sidenav18 .closebtn18 {
-  position: absolute;
-  font-family: 'Montserrat-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  color: black;
-  font-size: calc(2px + 4vw);
-  right: 0;
-  text-align: right;
+    position: fixed;
+    font-family: 'Montserrat-SemiBold';
+    font-weight: normal;
+    font-style: normal;
+    color: black;
+    font-size: calc(20px + 1.5vw);
+    text-align: center;
+    border-radius: 1vw;
+    margin-left: calc(50% - (20px + 1.5vw + 1.5vw));
+    bottom: 3vh;
+    background: pink;
+    padding: 0px .75vw .75vw .75vw;
+    z-index: 3;
 }
 
-@media screen and (max-height: 450px) {
-  .sidenav18 {
-    padding-top: 15px;
-  }
-
-  .sidenav18 a {
-    font-size: 18px;
-  }
-}
 
 /* --------------------- */
 .sidenav19::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
 
 .sidenav19 {
-  height: 98%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 1%;
-  right: -50vw;
-  background-color: whitesmoke;
-  overflow-x: hidden;
-  transition: 0.75s;
-  border-radius: 10vw;
-  border: 5px solid lightpink;
-  box-shadow:inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw lightpink;
-  margin: auto;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: -50vw;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+    transition: 0.75s;
+    border-radius: 10vw;
+    border: 5px solid lightpink;
+    box-shadow: inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw lightpink;
 }
 
 .sidenav19 .title {
-  font-family: 'Montserrat-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  font-size: calc(2px + 4vw);
-  text-align: right;
-  line-height: 105%;
-  padding-bottom: 2%;
+    font-family: 'Montserrat-SemiBold';
+    font-weight: normal;
+    font-style: normal;
+    font-size: calc(30px + 2vw);
+    text-align: right;
+    line-height: 105%;
+    padding-bottom: 2vh;
+    position: relative;
 }
 
 .sidenav19 .info {
-  font-family: 'Montserrat-LightItalic';
-  font-weight: normal;
-  font-size: 1.5vh;
-  margin-bottom: 1vh;
-  text-align: right;
+    font-family: 'Montserrat-LightItalic';
+    font-weight: normal;
+    font-size: 1.5vh;
+    margin-bottom: 3vh;
+    text-align: right;
+    position: relative;
 }
 
 .sidenav19 h1 {
-  text-decoration: none;
-  color: black;
-  display: block;
-
+    text-decoration: none;
+    color: black;
+    display: block;
 }
 
 .sidenav19 a {
-  font-size: 1.5vh;
-  font-family: 'Montserrat-LightItalic';
-  font-style: italic;
+    font-size: 1.5vh;
+    font-family: 'Montserrat-LightItalic';
+    font-style: italic;
 }
 
 .sidenav19 img {
-  position: inherit;
-  width: 43vw;
-  height: auto;
-  border: 1px solid black;
-  border-radius: 2vw;
-}
-
-.center19 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90vw;
+    width: 100%;
+    height: auto;
+    border-radius: 2vw;
+    margin-bottom: 10px;
 }
 
 .sidenav19 .closebtn19 {
-  position: absolute;
-  font-family: 'Montserrat-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  color: black;
-  font-size: calc(2px + 4vw);
-  right: 0;
-  text-align: right;
+    position: fixed;
+    font-family: 'Montserrat-SemiBold';
+    font-weight: normal;
+    font-style: normal;
+    color: black;
+    font-size: calc(20px + 1.5vw);
+    text-align: center;
+    border-radius: 1vw;
+    margin-left: calc(50% - (20px + 1.5vw + 1.5vw));
+    bottom: 3vh;
+    background: pink;
+    padding: 0px .75vw .75vw .75vw;
+    z-index: 3;
 }
 
-@media screen and (max-height: 450px) {
-  .sidenav19 {
-    padding-top: 15px;
-  }
-
-  .sidenav19 a {
-    font-size: 18px;
-  }
-}
 
 /* --------------------- */
 .sidenav20::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
 
 .sidenav20 {
-  height: 98%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 1%;
-  right: -50vw;
-  background-color: whitesmoke;
-  overflow-x: hidden;
-  transition: 0.75s;
-  border-radius: 10vw;
-  border: 5px solid lightpink;
-  box-shadow:inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw lightpink;
-  margin: auto;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: -50vw;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+    transition: 0.75s;
+    border-radius: 10vw;
+    border: 5px solid lightpink;
+    box-shadow: inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw lightpink;
 }
 
 .sidenav20 .title {
-  font-family: 'Montserrat-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  font-size: calc(2px + 4vw);
-  text-align: right;
-  line-height: 105%;
-  padding-bottom: 2%;
+    font-family: 'Montserrat-SemiBold';
+    font-weight: normal;
+    font-style: normal;
+    font-size: calc(30px + 2vw);
+    text-align: right;
+    line-height: 105%;
+    padding-bottom: 2vh;
+    position: relative;
 }
 
 .sidenav20 .info {
-  font-family: 'Montserrat-LightItalic';
-  font-weight: normal;
-  font-size: 1.5vh;
-  margin-bottom: 1vh;
-  text-align: right;
+    font-family: 'Montserrat-LightItalic';
+    font-weight: normal;
+    font-size: 1.5vh;
+    margin-bottom: 3vh;
+    text-align: right;
+    position: relative;
 }
 
 .sidenav20 h1 {
-  text-decoration: none;
-  color: black;
-  display: block;
-
+    text-decoration: none;
+    color: black;
+    display: block;
 }
 
 .sidenav20 a {
-  font-size: 1.5vh;
-  font-family: 'Montserrat-LightItalic';
-  font-style: italic;
+    font-size: 1.5vh;
+    font-family: 'Montserrat-LightItalic';
+    font-style: italic;
 }
 
 .sidenav20 img {
-  position: inherit;
-  width: 43vw;
-  height: auto;
-  border: 1px solid black;
-  border-radius: 2vw;
-}
-
-.center20 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90vw;
+    width: 100%;
+    height: auto;
+    border-radius: 2vw;
+    margin-bottom: 10px;
 }
 
 .sidenav20 .closebtn20 {
-  position: absolute;
-  font-family: 'Montserrat-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  color: black;
-  font-size: calc(2px + 4vw);
-  right: 0;
-  text-align: right;
+    position: fixed;
+    font-family: 'Montserrat-SemiBold';
+    font-weight: normal;
+    font-style: normal;
+    color: black;
+    font-size: calc(20px + 1.5vw);
+    text-align: center;
+    border-radius: 1vw;
+    margin-left: calc(50% - (20px + 1.5vw + 1.5vw));
+    bottom: 3vh;
+    background: pink;
+    padding: 0px .75vw .75vw .75vw;
+    z-index: 3;
 }
 
-@media screen and (max-height: 450px) {
-  .sidenav20 {
-    padding-top: 15px;
-  }
 
-  .sidenav20 a {
-    font-size: 18px;
-  }
-}
-
-/* --------------------- */
-.sidenav21::-webkit-scrollbar {
-  display: none;
-}
-
-.sidenav21 {
-  height: 98%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 1%;
-  right: -50vw;
-  background-color: whitesmoke;
-  overflow-x: hidden;
-  transition: 0.75s;
-  border-radius: 10vw;
-  border: 5px solid lightpink;
-  box-shadow:inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw lightpink;
-  margin: auto;
-}
-
-.sidenav21 .title {
-  font-family: 'Montserrat-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  font-size: calc(2px + 4vw);
-  text-align: right;
-  line-height: 105%;
-  padding-bottom: 2%;
-}
-
-.sidenav21 .info {
-  font-family: 'Montserrat-LightItalic';
-  font-weight: normal;
-  font-size: 1.5vh;
-  margin-bottom: 1vh;
-  text-align: right;
-}
-
-.sidenav21 h1 {
-  text-decoration: none;
-  color: black;
-  display: block;
-
-}
-
-.sidenav21 a {
-  font-size: 1.5vh;
-  font-family: 'Montserrat-LightItalic';
-  font-style: italic;
-}
-
-.sidenav21 img {
-  position: inherit;
-  width: 43vw;
-  height: auto;
-  border: 1px solid black;
-  border-radius: 2vw;
-}
-
-.center21 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90vw;
-}
-
-.sidenav21 .closebtn21 {
-  position: absolute;
-  font-family: 'Montserrat-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  color: black;
-  font-size: calc(2px + 4vw);
-  right: 0;
-  text-align: right;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav21 {
-    padding-top: 15px;
-  }
-
-  .sidenav21 a {
-    font-size: 18px;
-  }
-}
-
-/* --------------------- */
-.sidenav22::-webkit-scrollbar {
-  display: none;
-}
-
-.sidenav22 {
-  height: 98%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 1%;
-  right: -50vw;
-  background-color: whitesmoke;
-  overflow-x: hidden;
-  transition: 0.75s;
-  border-radius: 10vw;
-  border: 5px solid lightpink;
-  box-shadow:inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw lightpink;
-  margin: auto;
-}
-
-.sidenav22 .title {
-  font-family: 'Montserrat-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  font-size: calc(2px + 4vw);
-  text-align: right;
-  line-height: 105%;
-  padding-bottom: 2%;
-}
-
-.sidenav22 .info {
-  font-family: 'Montserrat-LightItalic';
-  font-weight: normal;
-  font-size: 1.5vh;
-  margin-bottom: 1vh;
-  text-align: right;
-}
-
-.sidenav22 h1 {
-  text-decoration: none;
-  color: black;
-  display: block;
-
-}
-
-.sidenav22 a {
-  font-size: 1.5vh;
-  font-family: 'Montserrat-LightItalic';
-  font-style: italic;
-}
-
-.sidenav22 img {
-  position: inherit;
-  width: 43vw;
-  height: auto;
-  border: 1px solid black;
-  border-radius: 2vw;
-}
-
-.center22 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90vw;
-}
-
-.sidenav22 .closebtn22 {
-  position: absolute;
-  font-family: 'Montserrat-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  color: black;
-  font-size: calc(2px + 4vw);
-  right: 0;
-  text-align: right;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav22 {
-    padding-top: 15px;
-  }
-
-  .sidenav22 a {
-    font-size: 18px;
-  }
-}
-
-/* --------------------- */
-.sidenav23::-webkit-scrollbar {
-  display: none;
-}
-
-.sidenav23 {
-  height: 98%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 1%;
-  right: -50vw;
-  background-color: whitesmoke;
-  overflow-x: hidden;
-  transition: 0.75s;
-  border-radius: 10vw;
-  border: 5px solid lightpink;
-  box-shadow:inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw lightpink;
-  margin: auto;
-}
-
-.sidenav23 .title {
-  font-family: 'Montserrat-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  font-size: calc(2px + 4vw);
-  text-align: right;
-  line-height: 105%;
-  padding-bottom: 2%;
-}
-
-.sidenav23 .info {
-  font-family: 'Montserrat-LightItalic';
-  font-weight: normal;
-  font-size: 1.5vh;
-  margin-bottom: 1vh;
-  text-align: right;
-}
-
-.sidenav23 h1 {
-  text-decoration: none;
-  color: black;
-  display: block;
-
-}
-
-.sidenav23 a {
-  font-size: 1.5vh;
-  font-family: 'Montserrat-LightItalic';
-  font-style: italic;
-}
-
-.sidenav23 img {
-  position: inherit;
-  width: 43vw;
-  height: auto;
-  border: 1px solid black;
-  border-radius: 2vw;
-}
-
-.center23 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90vw;
-}
-
-.sidenav23 .closebtn23 {
-  position: absolute;
-  font-family: 'Montserrat-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  color: black;
-  font-size: calc(2px + 4vw);
-  right: 0;
-  text-align: right;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav23 {
-    padding-top: 15px;
-  }
-
-  .sidenav23 a {
-    font-size: 18px;
-  }
-}
-
-/* --------------------- */
-.sidenav24::-webkit-scrollbar {
-  display: none;
-}
-
-.sidenav24 {
-  height: 98%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 1%;
-  right: -50vw;
-  background-color: whitesmoke;
-  overflow-x: hidden;
-  transition: 0.75s;
-  border-radius: 10vw;
-  border: 5px solid lightpink;
-  box-shadow:inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw lightpink;
-  margin: auto;
-}
-
-.sidenav24 .title {
-  font-family: 'Montserrat-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  font-size: calc(2px + 4vw);
-  text-align: right;
-  line-height: 105%;
-  padding-bottom: 2%;
-}
-
-.sidenav24 .info {
-  font-family: 'Montserrat-LightItalic';
-  font-weight: normal;
-  font-size: 1.5vh;
-  margin-bottom: 1vh;
-  text-align: right;
-}
-
-.sidenav24 h1 {
-  text-decoration: none;
-  color: black;
-  display: block;
-
-}
-
-.sidenav24 a {
-  font-size: 1.5vh;
-  font-family: 'Montserrat-LightItalic';
-  font-style: italic;
-}
-
-.sidenav24 img {
-  position: inherit;
-  width: 43vw;
-  height: auto;
-  border: 1px solid black;
-  border-radius: 2vw;
-}
-
-.center24 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90vw;
-}
-
-.sidenav24 .closebtn24 {
-  position: absolute;
-  font-family: 'Montserrat-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  color: black;
-  font-size: calc(2px + 4vw);
-  right: 0;
-  text-align: right;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav24 {
-    padding-top: 15px;
-  }
-
-  .sidenav24 a {
-    font-size: 18px;
-  }
-}
-
-/* --------------------- */
-.sidenav25::-webkit-scrollbar {
-  display: none;
-}
-
-.sidenav25 {
-  height: 98%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 1%;
-  right: -50vw;
-  background-color: whitesmoke;
-  overflow-x: hidden;
-  transition: 0.75s;
-  border-radius: 10vw;
-  border: 5px solid lightpink;
-  box-shadow:inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw lightpink;
-  margin: auto;
-}
-
-.sidenav25 .title {
-  font-family: 'Montserrat-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  font-size: calc(2px + 4vw);
-  text-align: right;
-  line-height: 105%;
-  padding-bottom: 2%;
-}
-
-.sidenav25 .info {
-  font-family: 'Montserrat-LightItalic';
-  font-weight: normal;
-  font-size: 1.5vh;
-  margin-bottom: 1vh;
-  text-align: right;
-}
-
-.sidenav25 h1 {
-  text-decoration: none;
-  color: black;
-  display: block;
-
-}
-
-.sidenav25 a {
-  font-size: 1.5vh;
-  font-family: 'Montserrat-LightItalic';
-  font-style: italic;
-}
-
-.sidenav25 img {
-  position: inherit;
-  width: 43vw;
-  height: auto;
-  border: 1px solid black;
-  border-radius: 2vw;
-}
-
-.center25 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90vw;
-}
-
-.sidenav25 .closebtn25 {
-  position: absolute;
-  font-family: 'Montserrat-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  color: black;
-  font-size: calc(2px + 4vw);
-  right: 0;
-  text-align: right;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav25 {
-    padding-top: 15px;
-  }
-
-  .sidenav25 a {
-    font-size: 18px;
-  }
-}
-
-/* --------------------- */
-.sidenav26::-webkit-scrollbar {
-  display: none;
-}
-
-.sidenav26 {
-  height: 98%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 1%;
-  right: -50vw;
-  background-color: whitesmoke;
-  overflow-x: hidden;
-  transition: 0.75s;
-  border-radius: 10vw;
-  border: 5px solid lightpink;
-  box-shadow:inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw lightpink;
-  margin: auto;
-}
-
-.sidenav26 .title {
-  font-family: 'Montserrat-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  font-size: calc(2px + 4vw);
-  text-align: right;
-  line-height: 105%;
-  padding-bottom: 2%;
-}
-
-.sidenav26 .info {
-  font-family: 'Montserrat-LightItalic';
-  font-weight: normal;
-  font-size: 1.5vh;
-  margin-bottom: 1vh;
-  text-align: right;
-}
-
-.sidenav26 h1 {
-  text-decoration: none;
-  color: black;
-  display: block;
-
-}
-
-.sidenav26 a {
-  font-size: 1.5vh;
-  font-family: 'Montserrat-LightItalic';
-  font-style: italic;
-}
-
-.sidenav26 img {
-  position: inherit;
-  width: 43vw;
-  height: auto;
-  border: 1px solid black;
-  border-radius: 2vw;
-}
-
-.center26 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90vw;
-}
-
-.sidenav26 .closebtn26 {
-  position: absolute;
-  font-family: 'Montserrat-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  color: black;
-  font-size: calc(2px + 4vw);
-  right: 0;
-  text-align: right;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav26 {
-    padding-top: 15px;
-  }
-
-  .sidenav26 a {
-    font-size: 18px;
-  }
-}
-
-/* --------------------- */
-.sidenav27::-webkit-scrollbar {
-  display: none;
-}
-
-.sidenav27 {
-  height: 98%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 1%;
-  right: -50vw;
-  background-color: whitesmoke;
-  overflow-x: hidden;
-  transition: 0.75s;
-  border-radius: 10vw;
-  border: 5px solid lightpink;
-  box-shadow:inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw lightpink;
-  margin: auto;
-}
-
-.sidenav27 .title {
-  font-family: 'Montserrat-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  font-size: calc(2px + 4vw);
-  text-align: right;
-  line-height: 105%;
-  padding-bottom: 2%;
-}
-
-.sidenav27 .info {
-  font-family: 'Montserrat-LightItalic';
-  font-weight: normal;
-  font-size: 1.5vh;
-  margin-bottom: 1vh;
-  text-align: right;
-}
-
-.sidenav27 h1 {
-  text-decoration: none;
-  color: black;
-  display: block;
-
-}
-
-.sidenav27 a {
-  font-size: 1.5vh;
-  font-family: 'Montserrat-LightItalic';
-  font-style: italic;
-}
-
-.sidenav27 img {
-  position: inherit;
-  width: 43vw;
-  height: auto;
-  border: 1px solid black;
-  border-radius: 2vw;
-}
-
-.center27 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90vw;
-}
-
-.sidenav27 .closebtn27 {
-  position: absolute;
-  font-family: 'Montserrat-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  color: black;
-  font-size: calc(2px + 4vw);
-  right: 0;
-  text-align: right;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav27 {
-    padding-top: 15px;
-  }
-
-  .sidenav27 a {
-    font-size: 18px;
-  }
-}
-
-/* --------------------- */
-.sidenav28::-webkit-scrollbar {
-  display: none;
-}
-
-.sidenav28 {
-  height: 98%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 1%;
-  right: -50vw;
-  background-color: whitesmoke;
-  overflow-x: hidden;
-  transition: 0.75s;
-  border-radius: 10vw;
-  border: 5px solid lightpink;
-  box-shadow:inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw lightpink;
-  margin: auto;
-}
-
-.sidenav28 .title {
-  font-family: 'Montserrat-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  font-size: calc(2px + 4vw);
-  text-align: right;
-  line-height: 105%;
-  padding-bottom: 2%;
-}
-
-.sidenav28 .info {
-  font-family: 'Montserrat-LightItalic';
-  font-weight: normal;
-  font-size: 1.5vh;
-  margin-bottom: 1vh;
-  text-align: right;
-}
-
-.sidenav28 h1 {
-  text-decoration: none;
-  color: black;
-  display: block;
-
-}
-
-.sidenav28 a {
-  font-size: 1.5vh;
-  font-family: 'Montserrat-LightItalic';
-  font-style: italic;
-}
-
-.sidenav28 img {
-  position: inherit;
-  width: 43vw;
-  height: auto;
-  border: 1px solid black;
-  border-radius: 2vw;
-}
 
-.center28 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90vw;
-}
-
-.sidenav28 .closebtn28 {
-  position: absolute;
-  font-family: 'Montserrat-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  color: black;
-  font-size: calc(2px + 4vw);
-  right: 0;
-  text-align: right;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav28 {
-    padding-top: 15px;
-  }
-
-  .sidenav28 a {
-    font-size: 18px;
-  }
-}
 
 /* --------------------- */
 .box {
