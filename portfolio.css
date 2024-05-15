@@ -136,7 +136,7 @@ iframe {
   text-align: right;
   margin: auto;
   visibility: hidden;
-  padding: 6vh 7vh;
+  padding: 6vh 8vh;
   background-color: pink;
   border-radius: 10vh;
   border: 5px solid whitesmoke;
@@ -176,7 +176,7 @@ iframe {
     -ms-z-index: 100!important;
     -o-z-index: 100!important;
     z-index: 100!important;
-    padding: 6vh 7vh;
+    padding: 6vh 8vh;
     background-color: pink;
     visibility: visible;
     border-radius: 10vh;
@@ -222,7 +222,7 @@ iframe {
     -ms-z-index: 100!important;
     -o-z-index: 100!important;
     z-index: 100!important;
-    padding: 6vh 7vh;
+    padding: 6vh 8vh;
     background-color: pink;
     visibility: visible;
     border-radius: 10vh;
