@@ -200,6 +200,10 @@ iframe {
     text-underline-position: from-font;
   }
 
+  html, body {
+    overflow: hidden;
+  }
+
 }
 
 @media (max-height: 500px) and (orientation: landscape) {
@@ -239,6 +243,10 @@ iframe {
     position: relative;
     text-decoration-color: whitesmoke;
     text-underline-position: from-font;
+  }
+
+  html, body {
+    overflow: hidden;
   }
 
 }
