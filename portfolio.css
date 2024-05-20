@@ -133,9 +133,8 @@ arrow {
     font-family: 'Montserrat-SemiBold';
     font-weight: normal;
     font-style: normal;
-    font-size: calc(30px + 2vw);
+    font-size: calc(60px + 4vw);
     text-align: right;
-    line-height: 105%;
 }
 
 
