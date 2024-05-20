@@ -127,13 +127,13 @@ iframe {
 .arrow {
     position: absolute;
     width: 60vw;
+    top: -6.5vw;
     padding: 0vw 5vw 0vh 3vw;
     box-sizing: border-box;
     font-family: 'Montserrat-SemiBold';
     font-weight: normal;
     font-style: normal;
     font-size: 45vw;
-    text-align: right;
     color: whitesmoke;
     -webkit-text-stroke-width: .4vw;
     -webkit-text-stroke-color: lightpink;
