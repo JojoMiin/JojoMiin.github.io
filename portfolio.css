@@ -126,15 +126,18 @@ iframe {
 
 .arrow {
     position: absolute;
-    width: 42vw;
-    float: right;
-    padding: 5vw 5vw 2vh 5vw;
+    width: 60vw;
+    padding: 0vw 5vw 0vh 3vw;
     box-sizing: border-box;
     font-family: 'Montserrat-SemiBold';
     font-weight: normal;
     font-style: normal;
-    font-size: calc(60px + 4vw);
+    font-size: 45vw;
     text-align: right;
+    color: whitesmoke;
+    -webkit-text-stroke-width: .4vw;
+    -webkit-text-stroke-color: lightpink;
+    visibility: visible;
 }
 
 
@@ -2323,6 +2326,10 @@ iframe {
   .pill_menu {
     padding: 5px 20px 10px 20px;
     font-size: calc(4.2vh - 1vw);
+  }
+
+  .arrow {
+    visibility: hidden;
   }
 
   .menubar .about {
