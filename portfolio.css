@@ -124,6 +124,20 @@ iframe {
     margin-bottom: 10px;
 }
 
+arrow {
+    position: absolute;
+    width: 42vw;
+    float: right;
+    padding: 5vw 5vw 2vh 5vw;
+    box-sizing: border-box;
+    font-family: 'Montserrat-SemiBold';
+    font-weight: normal;
+    font-style: normal;
+    font-size: calc(30px + 2vw);
+    text-align: right;
+    line-height: 105%;
+}
+
 
 .gameover {
   height: 100%;
