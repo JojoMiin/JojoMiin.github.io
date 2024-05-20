@@ -124,7 +124,7 @@ iframe {
     margin-bottom: 10px;
 }
 
-arrow {
+.arrow {
     position: absolute;
     width: 42vw;
     float: right;
