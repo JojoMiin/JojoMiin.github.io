@@ -127,8 +127,7 @@ iframe {
 .arrow {
     position: absolute;
     width: 60vw;
-    top: -6.5vw;
-    padding: 0vw 5vw 0vh 3vw;
+    padding: 4.5vw 5vw 0vh 3vw;
     box-sizing: border-box;
     font-family: 'Montserrat-SemiBold';
     font-weight: normal;
@@ -138,6 +137,7 @@ iframe {
     -webkit-text-stroke-width: .4vw;
     -webkit-text-stroke-color: lightpink;
     visibility: visible;
+    line-height: 0;
 }
 
 
