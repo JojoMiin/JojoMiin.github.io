@@ -1,18 +1,20 @@
-window.addEventListener("load", () => {
-    const loader = document.querySelector(".loader");
+document.addEventListener("DOMContentLoaded", () => {
+            const loader = document.querySelector(".loader");
 
-    // Add class to body to hide scrollbar
-    document.body.classList.add("no-scroll");
+            // Add class to body to hide scrollbar
+            document.body.classList.add("no-scroll");
 
-    loader.classList.add("loader--hidden");
+            window.addEventListener("load", () => {
+                loader.classList.add("loader--hidden");
 
-    loader.addEventListener("transitionend", () => {
-        document.body.removeChild(loader);
-        
-        // Remove class to show scrollbar again
-        document.body.classList.remove("no-scroll");
-    });
-});
+                loader.addEventListener("transitionend", () => {
+                    document.body.removeChild(loader);
+                    
+                    // Remove class to show scrollbar again
+                    document.body.classList.remove("no-scroll");
+                });
+            });
+        });
 
 window.onload = function() {
   let categories = [];
