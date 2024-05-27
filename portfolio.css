@@ -27,7 +27,6 @@
   border-top-color: black;
   border-radius: 100%;
   animation: loading 0.75s ease infinite;
-  box-shadow: inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9;
 }
 
 @keyframes loading {
