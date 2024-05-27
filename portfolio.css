@@ -1346,6 +1346,12 @@ iframe {
     box-shadow: inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw lightpink;
 }
 
+.sidenav9 .image-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: calc(.5vw + .5vh);
+}
+
 .sidenav9 .title {
     font-family: 'Montserrat-SemiBold';
     font-weight: normal;
@@ -1394,7 +1400,7 @@ iframe {
     font-size: calc(20px + 1.5vw);
     text-align: center;
     border-radius: 1vw;
-    margin-left: calc(50% - (20px + 1.5vw + 6vw));
+    margin-left: calc(50% - 20px - 2.5vw);
     bottom: 3vh;
     background: pink;
     padding: 0px .75vw .75vw .75vw;
