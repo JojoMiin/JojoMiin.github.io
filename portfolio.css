@@ -812,7 +812,7 @@ iframe {
 .sidenav2 .image-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 1vw;
+    gap: calc(.5vw + .5vh);
 }
 
 .sidenav2 .title {
