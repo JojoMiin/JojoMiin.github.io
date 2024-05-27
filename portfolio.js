@@ -8,13 +8,17 @@ document.addEventListener("DOMContentLoaded", () => {
                 loader.classList.add("loader--hidden");
 
                 loader.addEventListener("transitionend", () => {
-                    document.body.removeChild(loader);
+                    if (document.body.contains(loader)) {
+                        document.body.removeChild(loader);
+                    }
                     
                     // Remove class to show scrollbar again
                     document.body.classList.remove("no-scroll");
                 });
             });
         });
+
+
 
 window.onload = function() {
   let categories = [];
