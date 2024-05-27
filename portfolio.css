@@ -1,3 +1,7 @@
+.no-scroll {
+    overflow: hidden;
+}
+
 .loader {
   z-index: 20;
   overflow-x: hidden;
