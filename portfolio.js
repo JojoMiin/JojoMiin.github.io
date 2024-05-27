@@ -1,12 +1,18 @@
 window.addEventListener("load", () => {
-	const loader = document.querySelector(".loader");
+    const loader = document.querySelector(".loader");
 
-	loader.classList.add("loader--hidden");
+    // Add class to body to hide scrollbar
+    document.body.classList.add("no-scroll");
 
-	loader.addEventListener("transitionend", () => {
-		document.body.removeChild(loader);
-	})
-})
+    loader.classList.add("loader--hidden");
+
+    loader.addEventListener("transitionend", () => {
+        document.body.removeChild(loader);
+        
+        // Remove class to show scrollbar again
+        document.body.classList.remove("no-scroll");
+    });
+});
 
 window.onload = function() {
   let categories = [];
