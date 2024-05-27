@@ -2,6 +2,26 @@
     overflow: hidden;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin-right: .5vw;
+  background-color: whitesmoke;
+}
+
+
+.loader--hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
 .loader {
   z-index: 20;
   overflow-x: hidden;
@@ -16,11 +36,6 @@
   align-items: center;
   background-color: lightpink;
   transition: opacity 0.75s, visibility 0.75s;
-}
-
-.loader--hidden {
-  opacity: 0;
-  visibility: hidden;
 }
 
 .loader::after {
@@ -45,19 +60,7 @@
 
 
 
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  box-sizing: border-box;
-}
 
-html, body {
-  height: 100%;
-  margin-right: .5vw;
-  background-color: whitesmoke;
-}
 
 /* width */
 ::-webkit-scrollbar {
