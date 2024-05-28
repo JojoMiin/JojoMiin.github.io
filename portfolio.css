@@ -545,7 +545,7 @@ iframe {
 
 .menubar {
   position: fixed;
-  background: none;
+  background: whitesmoke;
   height: 100%;
   width: calc(27vw - 15px);
   z-index: 1;
