@@ -397,6 +397,7 @@ iframe {
   display: inline-block;
   font-size: 6vh;
   margin-top: -1vh;
+  cursor: pointer;
 }
 
 .header .name2 {
