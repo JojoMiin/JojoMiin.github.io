@@ -1,3 +1,43 @@
+@font-face {
+  font-family: "Montserrat-Medium";
+  src: url("/type/Montserrat-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat-MediumItalic";
+  src: url("/type/Montserrat-MediumItalic.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat-LightItalic";
+  src: url("/type/Montserrat-LightItalic.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("/type/Montserrat-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url("/type/Montserrat-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("/type/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Necto-Mono";
+  src: url("/type/Necto-Mono.woff2");
+}
+
+@font-face {
+  font-family: "Necto-Mono";
+  src: url("/type/Necto-Mono.woff2");
+}
+
 .no-scroll {
     overflow: hidden;
 }
@@ -111,45 +151,7 @@ span.symbol {
 
 
 
-@font-face {
-  font-family: "Montserrat-Medium";
-  src: url("/type/Montserrat-Medium.ttf");
-}
 
-@font-face {
-  font-family: "Montserrat-MediumItalic";
-  src: url("/type/Montserrat-MediumItalic.ttf");
-}
-
-@font-face {
-  font-family: "Montserrat-LightItalic";
-  src: url("/type/Montserrat-LightItalic.ttf");
-}
-
-@font-face {
-  font-family: "Montserrat-Regular";
-  src: url("/type/Montserrat-Regular.ttf");
-}
-
-@font-face {
-  font-family: "Montserrat-SemiBold";
-  src: url("/type/Montserrat-SemiBold.ttf");
-}
-
-@font-face {
-  font-family: "Montserrat-Bold";
-  src: url("/type/Montserrat-Bold.ttf");
-}
-
-@font-face {
-  font-family: "Necto-Mono";
-  src: url("/type/Necto-Mono.woff2");
-}
-
-@font-face {
-  font-family: "Necto-Mono";
-  src: url("/type/Necto-Mono.woff2");
-}
 
 
 
