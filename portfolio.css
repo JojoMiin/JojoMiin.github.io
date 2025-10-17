@@ -328,6 +328,52 @@ iframe {
 }
 
 
+@media (orientation: landscape) {
+
+  .gameover {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-align: right;
+    -webkit-z-index: 100!important;
+    -moz-z-index: 100!important;
+    -ms-z-index: 100!important;
+    -o-z-index: 100!important;
+    z-index: 100!important;
+    padding: 6vh 8vh;
+    background-color: pink;
+    visibility: visible;
+    border-radius: 10vh;
+    border: 5px solid whitesmoke;
+    box-shadow: inset calc(5px + .3vw) calc(5px + .4vw) calc(5px + .4vw) #7d4f56, inset calc(-5px - .4vw) calc(-5px - .4vw) calc(5px + .4vw) #ffcdd9, 0 0 6vw 8vw whitesmoke;
+  }
+
+  .gameover a {
+    visibility: visible;
+    color: black;
+    font-family: 'Montserrat-SemiBold';
+    font-weight: normal;
+    font-style: normal;
+    font-size: calc(4vw + 2.5vh);
+    text-align: right;
+    line-height: 12.5vh;
+    padding-bottom: 2vh;
+    position: relative;
+    text-decoration-color: whitesmoke;
+    text-underline-position: from-font;
+  }
+
+  html, body {
+    overflow: hidden;
+  }
+
+}
+
+
 
 .pill_menu {
   position: relative;
