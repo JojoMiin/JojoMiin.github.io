@@ -183,6 +183,19 @@ function closeNavTag() {
 
 
 
+    function openNav0() {
+      document.getElementById("mySidenav0").style.width = "98%";
+      document.getElementById("mySidenav0").style.right = "1%";
+	document.body.style.overflow = "hidden";
+    }
+
+    function closeNav0() {
+      document.getElementById("mySidenav0").style.width = "0";
+      document.getElementById("mySidenav0").style.right = "-50vw";
+	document.body.style.overflow = "";
+    }
+
+
 
     function openNav1() {
       document.getElementById("mySidenav1").style.width = "98%";
