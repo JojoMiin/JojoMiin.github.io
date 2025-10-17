@@ -238,6 +238,16 @@ iframe {
 
   /* use this query to apply style changes for 'mobile' screen sizes that are flipped in 'landscape' mode */
 
+  .menubar {
+  width: calc(27vw - 15px);
+  top: 0;
+  right: 0;
+  margin-right: 15px;
+  visibility: visible;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  }
+
   .gameover {
     height: 100%;
     width: 100%;
@@ -284,6 +294,16 @@ iframe {
 
 @media (max-height: 500px) and (orientation: landscape) {
 
+  .menubar {
+  width: calc(27vw - 15px);
+  top: 0;
+  right: 0;
+  margin-right: 15px;
+  visibility: visible;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  }
+
   .gameover {
     height: 100%;
     width: 100%;
@@ -329,6 +349,16 @@ iframe {
 
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  .menubar {
+  width: calc(27vw - 15px);
+  top: 0;
+  right: 0;
+  margin-right: 15px;
+  visibility: visible;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  }
 
   .gameover {
     height: 100%;
