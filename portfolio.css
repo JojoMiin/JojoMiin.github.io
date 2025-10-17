@@ -774,6 +774,13 @@ iframe {
 }
 
 .image-container {
+    width: 60vw;
+    float: left;
+    padding: 5vw;
+    box-sizing: border-box;
+}
+
+.sidenav9 .image-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: calc(.5vw + .5vh);
