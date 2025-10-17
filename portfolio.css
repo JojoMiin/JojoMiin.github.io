@@ -225,9 +225,9 @@ iframe {
   font-family: 'Montserrat-SemiBold';
   font-weight: normal;
   font-style: normal;
-  font-size: calc(3.5vw + 2vh);
+  font-size: calc(4vw + 2.5vh);
   text-align: right;
-  line-height: 12vh;
+  line-height: 12.5vh;
   padding-bottom: 2vh;
   position: relative;
   text-decoration-color: whitesmoke;
@@ -237,16 +237,6 @@ iframe {
 @media (max-width: 779px) and (orientation: landscape) {
 
   /* use this query to apply style changes for 'mobile' screen sizes that are flipped in 'landscape' mode */
-
-  .menubar {
-  width: calc(27vw - 15px);
-  top: 0;
-  right: 0;
-  margin-right: 15px;
-  visibility: visible;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  }
 
   .gameover {
     height: 100%;
@@ -277,9 +267,9 @@ iframe {
     font-family: 'Montserrat-SemiBold';
     font-weight: normal;
     font-style: normal;
-    font-size: calc(3.5vw + 2vh);
+    font-size: calc(4vw + 2.5vh);
     text-align: right;
-    line-height: 12vh;
+    line-height: 12.5vh;
     padding-bottom: 2vh;
     position: relative;
     text-decoration-color: whitesmoke;
@@ -293,16 +283,6 @@ iframe {
 }
 
 @media (max-height: 500px) and (orientation: landscape) {
-
-  .menubar {
-  width: calc(27vw - 15px);
-  top: 0;
-  right: 0;
-  margin-right: 15px;
-  visibility: visible;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  }
 
   .gameover {
     height: 100%;
@@ -332,9 +312,9 @@ iframe {
     font-family: 'Montserrat-SemiBold';
     font-weight: normal;
     font-style: normal;
-    font-size: calc(3.5vw + 2vh);
+    font-size: calc(4vw + 2.5vh);
     text-align: right;
-    line-height: 12vh;
+    line-height: 12.5vh;
     padding-bottom: 2vh;
     position: relative;
     text-decoration-color: whitesmoke;
@@ -350,16 +330,6 @@ iframe {
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
 
-  .menubar {
-  width: calc(27vw - 15px);
-  top: 0;
-  right: 0;
-  margin-right: 15px;
-  visibility: visible;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  }
-
   .gameover {
     height: 100%;
     width: 100%;
@@ -388,9 +358,9 @@ iframe {
     font-family: 'Montserrat-SemiBold';
     font-weight: normal;
     font-style: normal;
-    font-size: calc(3.5vw + 2vh);
+    font-size: calc(4vw + 2.5vh);
     text-align: right;
-    line-height: 12vh;
+    line-height: 12.5vh;
     padding-bottom: 2vh;
     position: relative;
     text-decoration-color: whitesmoke;
